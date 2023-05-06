@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
+    <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/home.css">
     <title>Колледж архитектуры и строительства</title>
 </head>
@@ -21,7 +22,7 @@
             <div class="intro">
                 <h1>ПКАС</h1>
                 <div class="header-logo">
-                    <img src="static/img/logo.png" alt="logo">
+                    <img style="width:13.02vw;height:13.02vw" src="static/img/logo.png" alt="logo">
                 </div>
                 <div class="under-intro">
                     <h2>Пензенский колледж архитектуры <br>
@@ -75,23 +76,21 @@
     <!-- End navigation -->
 
     <!-- Start tel menu -->
-    <div class="tel-menu-area">
         <div class="wrapper">
+        <section class="tel-menu-area">
             <div class="tel-menu">
-                <div class="main-text">
+                <div>
                     <p>
-                        Телефоны "горячей линии" в колледже, для <br>
-                        консультирования клиентов, оформления заявок, <br>
+                        Телефоны "горячей линии" в колледже, для
+                        консультирования клиентов, оформления заявок,
                         оказания технической поддержки:
                     </p>
                 </div>
                 <div class="tel-n-hotline">
                     <div class="tel">
-                        <p>
-                            8 (908)530-38-08; <br>
-                            8 (412) 52-18-58, <br>
-                            8 (412) 43-44-86. <br>
-                        </p>
+                        <p>8 (908) 530-38-08</p>
+                        <p>8 (8412) 52-18-58</p>
+                        <p>8 (8412) 43-44-86</p>
                     </div>
                     <div class="hotline">
                         Время работы "горячей <br>
@@ -102,12 +101,10 @@
                 </div>
             </div>
             <div class="btn-tel">
-                <a href="#">Звоните <br>
-                    прямо <br>
-                    сейчас</a>
+                <a href="#"><p>Звоните прямо сейчас</p></a>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- End tel menu -->
 
@@ -116,27 +113,92 @@
         <div class="main-news-area">
             <div class="wrapper">
                 <div class="main-news">
-                    <h2>ГЛАВНАЯ <br>
+                    <h2>ГЛАВНЫЕ <br>
                         НОВОСТИ
                     </h2>
                     <p>Пензенского колледжа архитектуры и <br>
                         строительства</p>
-                    <div class="news">
-                        <div class="img-news">
-                            <img src="../static/img/news/news-test.png" alt="">
-                            <img src="../static/img/news/news-test2.png" alt="">
-                        </div>
-                        <div class="text-news">
-                            <p>ДИКТАНТ ПОБЕДЫ</p><br>
-                            <p>27 апреля 2023</p><br>
-                            <p>В Пензенском колледже архитектуры и <br>
-                                строительства 27 апреля студенты <br>
-                                написали Диктант Победы.</p><br>
-                        </div>
-                        <div class="btn-news">
-                            <img src="../static/img/news/arrow.png" alt="">
-                            <p>читать</p>
-                        </div>
+                        <div class="news-list">
+                            <div class="news" style="border-right: 1px solid #ffffff;">
+                                <div class="img-news">
+                                    <img src="../static/img/news/news-test.png" alt="">
+                                    <img src="../static/img/news/news-test2.png" alt="">
+                                </div>
+                                <div class="text-news">
+                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                    <p>27 апреля 2023</p><br>
+                                </div>
+                                <div class="news-wrapper">
+                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                            строительства 27 апреля студенты <br>
+                                            написали Диктант Победы.
+                                        </p>
+                                    <a href="" class="btn-news">
+                                        <img src="../static/img/news/arrow.png" alt="">
+                                        <p>читать</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news">
+                                <div class="img-news">
+                                    <img src="../static/img/news/news-test.png" alt="">
+                                    <img src="../static/img/news/news-test2.png" alt="">
+                                </div>
+                                <div class="text-news">
+                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                    <p>27 апреля 2023</p><br>
+                                </div>
+                                <div class="news-wrapper">
+                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                            строительства 27 апреля студенты <br>
+                                            написали Диктант Победы.
+                                        </p>
+                                    <a href="" class="btn-news">
+                                        <img src="../static/img/news/arrow.png" alt="">
+                                        <p>читать</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news" style="border-right: 1px solid #ffffff;">
+                                <div class="img-news">
+                                    <img src="../static/img/news/news-test.png" alt="">
+                                    <img src="../static/img/news/news-test2.png" alt="">
+                                </div>
+                                <div class="text-news">
+                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                    <p>27 апреля 2023</p><br>
+                                </div>
+                                <div class="news-wrapper">
+                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                            строительства 27 апреля студенты <br>
+                                            написали Диктант Победы.
+                                        </p>
+                                    <a href="" class="btn-news">
+                                        <img src="../static/img/news/arrow.png" alt="">
+                                        <p>читать</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news">
+                                <div class="img-news">
+                                    <img src="../static/img/news/news-test.png" alt="">
+                                    <img src="../static/img/news/news-test2.png" alt="">
+                                </div>
+                                <div class="text-news">
+                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                    <p>27 апреля 2023</p><br>
+                                </div>
+                                <div class="news-wrapper">
+                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                            строительства 27 апреля студенты <br>
+                                            написали Диктант Победы.
+                                        </p>
+                                    <a href="" class="btn-news">
+                                        <img src="../static/img/news/arrow.png" alt="">
+                                        <p>читать</p>
+                                    </a>
+                                </div>
+                            </div>
                     </div>
                     <a href="news.php" class="all-news">ЧИТАТЬ ВСЕ НОВОСТИ</a>
                 </div>
@@ -146,7 +208,7 @@
     <!-- End main news -->
 
     <!-- Start footer -->
-    <footer class="footer-area">
+    <footer>
         <div class="wrapper">
             <div class="footer">
                 <div>
@@ -165,10 +227,11 @@
                             обновления содержания общего <br>
                             образования на сайтах <br>
                             образовательных организаций в сети <br>
-                            "Интернет" 8-800-200-91-85, <br>
-                            добавочный 7</li>
+                            "Интернет" 8-800-200-91-85
+                            </li>
                     </ul>
                 </div>
+                <div>
                 <ul class="column-area">
                     <span class="row">КОНТАКТЫ</span>
                     <li>г. Пенза, ул. Набережная р. Пензы, д. 3
@@ -180,6 +243,8 @@
                     <li>Вопросы по работе сайта: +7(900)316-04-47 <br>
                         Надежда Юрьевна Щербакова</li>
                 </ul>
+                </div>
+                <div>
                 <ul class="column-area">
                     <span class="row">ОБРАТНАЯ СВЯЗЬ</span>
                     <li>Есть предложения по организации <br>
@@ -187,6 +252,7 @@
                         сделать колледж лучше? </li>
                     <li><button class="btn-complaint" href="#">Написать о жалобе</button></li>
                 </ul>
+                </div>
             </div>
         </div>
     </footer>
@@ -195,30 +261,33 @@
     <!-- Start Modal feedback -->
     <div class="modal-fid">
         <div class="modal">
+        <h3>ОБРАТНАЯ СВЯЗЬ</h3>
             <form>
                 <div class="form-group">
-                    <label for="login">Ваше ФИО<span class="">*</span></label>
+                    <label for="login">Ваше ФИО<span class=""></span></label>
                     <input type="text" id="username" class="form-control" type="">
                 </div>
                 <div class="form-group">
-                    <label for="login">Почта<span class="">*</span></label>
+                    <label for="login">Почта<span class=""></span></label>
                     <input type="text" id="email" class="form-control" type="email">
                 </div>
                 <div class="form-group">
-                    <label for="">Опишите ситуацию<span class="">*</span></label>
-                    <textarea class="form-control" name="con_message" placeholder="Сообщение"></textarea>
-                </div class="form-group">
-                <p>
-                    Если у Вас несколько вопросов, напишите отдельное сообщение <br>
+                    <label for="">Опишите ситуацию<span class=""></span></label>
+                    <textarea  class="form-control" name="con_message"></textarea>
+                </div>
+                <p class="form-subtext">
+                    Если у Вас несколько вопросов, напишите отдельное сообщение
                     по каждому
                 </p>
-                <div class="form-group">
-                    <input type="checkbox" id="" name="">
-                    <label for="">Сообщение от имени юридического лица</label>
+                <div class="checkboxes">
+                <div>
+                <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+                    <label for="happy">Сообщение от имени юридического лица</label>
                 </div>
-                <div class="form-group">
-                    <input type="checkbox" id="" name="">
-                    <label for="">Я соглашаюсь с правилами подачи сообщения</label>
+                <div>
+                <input type="checkbox" class="custom-checkbox" id="happy1" name="happy" value="yes">
+                    <label for="happy1">Я соглашаюсь с правилами подачи сообщения</label>
+                </div>
                 </div>
                 <div class="btn-modal">
                     <button class="btn-complaint">Добавить файл</button>
