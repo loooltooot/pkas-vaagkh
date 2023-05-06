@@ -1,0 +1,87 @@
+@font-face {
+  font-family: JejuMyeongjo;
+  src: url("../../static/fonts/JejuMyeongjo-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --fonth1: 64px;
+  --fonth2: 32px;
+  --main-text: 24px;
+  --background-color: #191919;
+  --text-color: white;
+}
+
+html body * {
+  font-family: JejuMyeongjo, serif;
+  font-weight: 400;
+  font-size: var(--main-text);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  .wrapper {
+    margin: 0 auto;
+    max-width: 78.13vw;
+  }
+  header {
+    background-image: url(../../static/img/home/hero-back.png);
+    background-position: center -5.21vw;
+    height: 49vw;
+    .big-text {
+      font-size: var(--fonth2);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-top: 3vw;
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      margin-top: 230px;
+      h1 {
+        font-size: 200px;
+        margin: 0;
+      }
+      .header-logo {
+        margin-left: auto;
+      }
+      .under-intro {
+        font-size: var(--fonth1);
+      }
+    }
+  }
+  nav {
+    & > ul {
+      display: flex;
+      justify-content: space-between;
+      & > div {
+        width: 24.48vw;
+        &:last-child {
+          li:first-child {
+            margin-bottom: 5.21vw;
+          }
+        }
+      }
+    }
+    ul {
+      li {
+        font-size: var(--fonth2);
+        margin-bottom: 0.83vw;
+      }
+    }
+    .row {
+      display: block;
+      font-size: 2em;
+      margin-bottom: 4.17vw;
+    }
+  }
+}

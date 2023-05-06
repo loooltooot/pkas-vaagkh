@@ -1,0 +1,82 @@
+@font-face {
+  font-family: JejuMyeongjo;
+  src: url("../../static/fonts/JejuMyeongjo-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  --fonth1: 64px;
+  --fonth2: 32px;
+  --main-text: 24px;
+  --background-color: #191919;
+  --text-color: white;
+}
+
+html body * {
+  font-family: JejuMyeongjo, serif;
+  font-weight: 400;
+  font-size: var(--main-text);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+body .wrapper {
+  margin: 0 auto;
+  max-width: 78.13vw;
+}
+body header {
+  background-image: url(../../static/img/home/hero-back.png);
+  background-position: center -5.21vw;
+  height: 49vw;
+}
+body header .big-text {
+  font-size: var(--fonth2);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3vw;
+}
+body header .intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-top: 230px;
+}
+body header .intro h1 {
+  font-size: 200px;
+  margin: 0;
+}
+body header .intro .header-logo {
+  margin-left: auto;
+}
+body header .intro .under-intro {
+  font-size: var(--fonth1);
+}
+body nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+body nav > ul > div {
+  width: 24.48vw;
+}
+body nav > ul > div:last-child li:first-child {
+  margin-bottom: 5.21vw;
+}
+body nav ul li {
+  font-size: var(--fonth2);
+  margin-bottom: 0.83vw;
+}
+body nav .row {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 4.17vw;
+}
+
+/*# sourceMappingURL=home.css.map */
