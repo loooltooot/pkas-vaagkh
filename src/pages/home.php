@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/sass/">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/normalize.css">
+    <link rel="stylesheet" href="src/styles/home.css">
     <title>Колледж архитектуры и строительства</title>
 </head>
 
 <body>
     <!-- Start header -->
-    <header class="header">
+    <header>
         <div class="wrapper">
             <span class="big-text">МИНИСТЕРСТВО ОБРАЗОВАНИЯ ПЕНЗЕНСКОЙ ОБЛАСТИ <br>
                 ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ПРОФЕССИОНАЛЬНОЕ <br>
@@ -19,7 +21,7 @@
             <div class="intro">
                 <h1>ПКАС</h1>
                 <div class="header-logo">
-                    <img src="" alt="">
+                    <img src="static/img/logo.png" alt="logo">
                 </div>
                 <div class="under-intro">
                     <h2>Пензенский колледж архитектуры <br>
