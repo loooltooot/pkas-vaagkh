@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/actions.css">
+    <link rel="stylesheet" href="src/styles/timetable.css">
     <title>Колледж архитектуры и строительства</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
             <section class="main-content-area">
                 <div class="wrapper">
                     <div class="main-content">
-                        <img src="../../static/img/timetable/timetable.png" alt="">
+                        <img src="../../static/img/actions/actions.png" alt="">
                     </div>
                 </div>
             </section>
