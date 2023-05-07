@@ -45,17 +45,17 @@
                     <div>
                         <span class="row">Для ученика</span>
                         <ul class="row-area">
-                            <li><a href="news.php">Новости</a></li>
+                            <li><a href="/news">Новости</a></li>
                             <li><a href="#">Контакты</a></li>
-                            <li><a href="apply_for_education.php">Подать заявление</a></li>
-                            <li><a href="professions.php">Навигатор профессий</a></li>
-                            <li><a href="dormitory.php">Общежитие</a></li>
-                            <li><a href="timetable.php">Расписание</a></li>
-                            <li><a href="history.php">История колледжа</a></li>
-                            <li><a href="documents.php">Документы</a></li>
-                            <li><a href="actions.php">Мероприятия</a></li>
-                            <li><a href="psychologist.php">Страница психолога</a></li>
-                            <li><a href="workshops.php">Мастерские</a></li>
+                            <li><a href="/apply_for_education">Подать заявление</a></li>
+                            <li><a href="/professions">Навигатор профессий</a></li>
+                            <li><a href="/dormitory">Общежитие</a></li>
+                            <li><a href="/timetable">Расписание</a></li>
+                            <li><a href="/history">История колледжа</a></li>
+                            <li><a href="/documents">Документы</a></li>
+                            <li><a href="/actions">Мероприятия</a></li>
+                            <li><a href="/psychologist">Страница психолога</a></li>
+                            <li><a href="/workshops">Мастерские</a></li>
                         </ul>
                     </div>
                     <div>
@@ -76,7 +76,7 @@
     <!-- End navigation -->
 
     <!-- Start tel menu -->
-        <div class="wrapper">
+    <div class="wrapper">
         <section class="tel-menu-area">
             <div class="tel-menu">
                 <div>
@@ -101,9 +101,11 @@
                 </div>
             </div>
             <div class="btn-tel">
-                <a href="#"><p>Звоните прямо сейчас</p></a>
+                <a href="#">
+                    <p>Звоните прямо сейчас</p>
+                </a>
             </div>
-        </div>
+    </div>
     </section>
 
     <!-- End tel menu -->
@@ -118,89 +120,89 @@
                     </h2>
                     <p>Пензенского колледжа архитектуры и <br>
                         строительства</p>
-                        <div class="news-list">
-                            <div class="news" style="border-right: 1px solid #ffffff;">
-                                <div class="img-news">
-                                    <img src="../static/img/news/news-test.png" alt="">
-                                    <img src="../static/img/news/news-test2.png" alt="">
-                                </div>
-                                <div class="text-news">
-                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                    <p>27 апреля 2023</p><br>
-                                </div>
-                                <div class="news-wrapper">
-                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                            строительства 27 апреля студенты <br>
-                                            написали Диктант Победы.
-                                        </p>
-                                    <a href="" class="btn-news">
-                                        <img src="../static/img/news/arrow.png" alt="">
-                                        <p>читать</p>
-                                    </a>
-                                </div>
+                    <div class="news-list">
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="../static/img/news/news-test.png" alt="">
+                                <img src="../static/img/news/news-test2.png" alt="">
                             </div>
-                            <div class="news">
-                                <div class="img-news">
-                                    <img src="../static/img/news/news-test.png" alt="">
-                                    <img src="../static/img/news/news-test2.png" alt="">
-                                </div>
-                                <div class="text-news">
-                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                    <p>27 апреля 2023</p><br>
-                                </div>
-                                <div class="news-wrapper">
-                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                            строительства 27 апреля студенты <br>
-                                            написали Диктант Победы.
-                                        </p>
-                                    <a href="" class="btn-news">
-                                        <img src="../static/img/news/arrow.png" alt="">
-                                        <p>читать</p>
-                                    </a>
-                                </div>
+                            <div class="text-news">
+                                <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                <p>27 апреля 2023</p><br>
                             </div>
-                            <div class="news" style="border-right: 1px solid #ffffff;">
-                                <div class="img-news">
-                                    <img src="../static/img/news/news-test.png" alt="">
-                                    <img src="../static/img/news/news-test2.png" alt="">
-                                </div>
-                                <div class="text-news">
-                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                    <p>27 апреля 2023</p><br>
-                                </div>
-                                <div class="news-wrapper">
-                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                            строительства 27 апреля студенты <br>
-                                            написали Диктант Победы.
-                                        </p>
-                                    <a href="" class="btn-news">
-                                        <img src="../static/img/news/arrow.png" alt="">
-                                        <p>читать</p>
-                                    </a>
-                                </div>
+                            <div class="news-wrapper">
+                                <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                    строительства 27 апреля студенты <br>
+                                    написали Диктант Победы.
+                                </p>
+                                <a href="" class="btn-news">
+                                    <img src="../static/img/news/arrow.png" alt="">
+                                    <p>читать</p>
+                                </a>
                             </div>
-                            <div class="news">
-                                <div class="img-news">
-                                    <img src="../static/img/news/news-test.png" alt="">
-                                    <img src="../static/img/news/news-test2.png" alt="">
-                                </div>
-                                <div class="text-news">
-                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                    <p>27 апреля 2023</p><br>
-                                </div>
-                                <div class="news-wrapper">
-                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                            строительства 27 апреля студенты <br>
-                                            написали Диктант Победы.
-                                        </p>
-                                    <a href="" class="btn-news">
-                                        <img src="../static/img/news/arrow.png" alt="">
-                                        <p>читать</p>
-                                    </a>
-                                </div>
+                        </div>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="../static/img/news/news-test.png" alt="">
+                                <img src="../static/img/news/news-test2.png" alt="">
                             </div>
+                            <div class="text-news">
+                                <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                <p>27 апреля 2023</p><br>
+                            </div>
+                            <div class="news-wrapper">
+                                <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                    строительства 27 апреля студенты <br>
+                                    написали Диктант Победы.
+                                </p>
+                                <a href="" class="btn-news">
+                                    <img src="../static/img/news/arrow.png" alt="">
+                                    <p>читать</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="../static/img/news/news-test.png" alt="">
+                                <img src="../static/img/news/news-test2.png" alt="">
+                            </div>
+                            <div class="text-news">
+                                <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                <p>27 апреля 2023</p><br>
+                            </div>
+                            <div class="news-wrapper">
+                                <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                    строительства 27 апреля студенты <br>
+                                    написали Диктант Победы.
+                                </p>
+                                <a href="" class="btn-news">
+                                    <img src="../static/img/news/arrow.png" alt="">
+                                    <p>читать</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="../static/img/news/news-test.png" alt="">
+                                <img src="../static/img/news/news-test2.png" alt="">
+                            </div>
+                            <div class="text-news">
+                                <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                <p>27 апреля 2023</p><br>
+                            </div>
+                            <div class="news-wrapper">
+                                <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                    строительства 27 апреля студенты <br>
+                                    написали Диктант Победы.
+                                </p>
+                                <a href="" class="btn-news">
+                                    <img src="../static/img/news/arrow.png" alt="">
+                                    <p>читать</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <a href="news.php" class="all-news">ЧИТАТЬ ВСЕ НОВОСТИ</a>
+                    <a href="/news" class="all-news">ЧИТАТЬ ВСЕ НОВОСТИ</a>
                 </div>
             </div>
         </div>
@@ -228,30 +230,30 @@
                             образования на сайтах <br>
                             образовательных организаций в сети <br>
                             "Интернет" 8-800-200-91-85
-                            </li>
+                        </li>
                     </ul>
                 </div>
                 <div>
-                <ul class="column-area">
-                    <span class="row">КОНТАКТЫ</span>
-                    <li>г. Пенза, ул. Набережная р. Пензы, д. 3
-                        Администрация: <a href="http://pkas58.ru/article/sitemap">pask_e@mail.ru</a><br>
-                        <a href="http://pkas58.ru/article/sitemap ">Карта портала</a> <br>
-                        <a href="http://vk.com/pkas_58">Официальная группа вконтакте</a> <br>
-                        <a href="http://pkas58.ru/wp/?page_id=77"> Форма обратной связи</a>
-                    </li>
-                    <li>Вопросы по работе сайта: +7(900)316-04-47 <br>
-                        Надежда Юрьевна Щербакова</li>
-                </ul>
+                    <ul class="column-area">
+                        <span class="row">КОНТАКТЫ</span>
+                        <li>г. Пенза, ул. Набережная р. Пензы, д. 3
+                            Администрация: <a href="http://pkas58.ru/article/sitemap">pask_e@mail.ru</a><br>
+                            <a href="http://pkas58.ru/article/sitemap ">Карта портала</a> <br>
+                            <a href="http://vk.com/pkas_58">Официальная группа вконтакте</a> <br>
+                            <a href="http://pkas58.ru/wp/?page_id=77"> Форма обратной связи</a>
+                        </li>
+                        <li>Вопросы по работе сайта: +7(900)316-04-47 <br>
+                            Надежда Юрьевна Щербакова</li>
+                    </ul>
                 </div>
                 <div>
-                <ul class="column-area">
-                    <span class="row">ОБРАТНАЯ СВЯЗЬ</span>
-                    <li>Есть предложения по организации <br>
-                        учебного процесса или знаете, как<br>
-                        сделать колледж лучше? </li>
-                    <li><button class="btn-complaint" href="#">Написать о жалобе</button></li>
-                </ul>
+                    <ul class="column-area">
+                        <span class="row">ОБРАТНАЯ СВЯЗЬ</span>
+                        <li>Есть предложения по организации <br>
+                            учебного процесса или знаете, как<br>
+                            сделать колледж лучше? </li>
+                        <li><button class="btn-complaint" href="#">Написать о жалобе</button></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -261,7 +263,7 @@
     <!-- Start Modal feedback -->
     <div class="modal-fid">
         <div class="modal">
-        <h3>ОБРАТНАЯ СВЯЗЬ</h3>
+            <h3>ОБРАТНАЯ СВЯЗЬ</h3>
             <form>
                 <div class="form-group">
                     <label for="login">Ваше ФИО<span class=""></span></label>
@@ -273,21 +275,21 @@
                 </div>
                 <div class="form-group">
                     <label for="">Опишите ситуацию<span class=""></span></label>
-                    <textarea  class="form-control" name="con_message"></textarea>
+                    <textarea class="form-control" name="con_message"></textarea>
                 </div>
                 <p class="form-subtext">
                     Если у Вас несколько вопросов, напишите отдельное сообщение
                     по каждому
                 </p>
                 <div class="checkboxes">
-                <div>
-                <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
-                    <label for="happy">Сообщение от имени юридического лица</label>
-                </div>
-                <div>
-                <input type="checkbox" class="custom-checkbox" id="happy1" name="happy" value="yes">
-                    <label for="happy1">Я соглашаюсь с правилами подачи сообщения</label>
-                </div>
+                    <div>
+                        <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+                        <label for="happy">Сообщение от имени юридического лица</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="custom-checkbox" id="happy1" name="happy" value="yes">
+                        <label for="happy1">Я соглашаюсь с правилами подачи сообщения</label>
+                    </div>
                 </div>
                 <div class="btn-modal">
                     <button class="btn-complaint">Добавить файл</button>
