@@ -130,14 +130,16 @@
     <!-- End Modal fidback-->
 
     <!-- Start points -->
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
+    <div class="images">
+        <img src="../../static/img/point.png" alt="">
+        <img src="../../static/img/point.png" alt="">
+        <img src="../../static/img/point.png" alt="">
+        <img src="../../static/img/point.png" alt="">
+        <img src="../../static/img/point.png" alt="">
+        <img src="../../static/img/point.png" alt="">
+        <img src="../../static/img/point.png" alt="">
+        <img src="../../static/img/point.png" alt="">
+    </div>
     <!-- End points -->
 </body>
 </html>
