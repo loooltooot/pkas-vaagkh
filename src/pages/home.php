@@ -45,17 +45,17 @@
                     <div>
                         <span class="row">Для ученика</span>
                         <ul class="row-area">
-                            <li><a href="news.php">Новости</a></li>
+                            <li><a href="/news">Новости</a></li>
                             <li><a href="#">Контакты</a></li>
-                            <li><a href="apply_for_education.php">Подать заявление</a></li>
-                            <li><a href="professions.php">Навигатор профессий</a></li>
-                            <li><a href="dormitory.php">Общежитие</a></li>
-                            <li><a href="timetable.php">Расписание</a></li>
-                            <li><a href="history.php">История колледжа</a></li>
-                            <li><a href="documents.php">Документы</a></li>
-                            <li><a href="actions.php">Мероприятия</a></li>
-                            <li><a href="psychologist.php">Страница психолога</a></li>
-                            <li><a href="workshops.php">Мастерские</a></li>
+                            <li><a href="/apply_for_education">Подать заявление</a></li>
+                            <li><a href="/professions">Навигатор профессий</a></li>
+                            <li><a href="/dormitory">Общежитие</a></li>
+                            <li><a href="/timetable">Расписание</a></li>
+                            <li><a href="/history">История колледжа</a></li>
+                            <li><a href="/documents">Документы</a></li>
+                            <li><a href="/actions">Мероприятия</a></li>
+                            <li><a href="/psychologist">Страница психолога</a></li>
+                            <li><a href="/workshops">Мастерские</a></li>
                         </ul>
                     </div>
                     <div>
@@ -202,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="news.php" class="all-news">ЧИТАТЬ ВСЕ НОВОСТИ</a>
+                    <a href="/news" class="all-news">ЧИТАТЬ ВСЕ НОВОСТИ</a>
                 </div>
             </div>
         </div>
