@@ -43,7 +43,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="doc-2-area">
+                        <div class="doc-1-area">
                             <div class="doc-1">
                                 <p>
                                     ДОКУМЕНТ №2
@@ -55,7 +55,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="doc-3-area">
+                        <div class="doc-1-area">
                         <div class="doc-1">
                                 <p>
                                     ДОКУМЕНТ №3
@@ -164,10 +164,5 @@
     </div>
     <!-- End Modal fidback-->
 
-    <!-- Start points -->
-        <div class="images">
-            <img src="../../static/img/point.png" alt="">
-        </div>
-    <!-- End points -->
 </body>
 </html>
