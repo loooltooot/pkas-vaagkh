@@ -79,6 +79,9 @@ body .main-news .news .img-news img {
   width: 17.71vw;
   height: 17.71vw;
 }
+body .main-news .news:nth-child(1), body .main-news .news:nth-child(3) {
+  border-right: 1px solid #ffffff;
+}
 body .main-news .name-news {
   padding-top: 1.04vw;
 }
@@ -111,7 +114,7 @@ body .main-news .news-wrapper .btn-news {
   height: 2.6vw;
 }
 body .main-news .news-wrapper .btn-news p {
-  transition: 0.05s ease;
+  transition: color 0.2s;
   font-size: var(--main-text);
 }
 body .main-news .news-wrapper .btn-news:hover {
@@ -123,7 +126,7 @@ body .main-news .all-news {
   padding: 2.08vw;
   border-bottom: 1px solid #ffffff;
   font-size: var(--fonth2);
-  transition: 0.25s ease;
+  transition: 0.2s ease;
 }
 body .main-news .all-news:hover {
   color: #ccc;
