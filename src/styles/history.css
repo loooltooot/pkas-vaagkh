@@ -1,0 +1,84 @@
+body header {
+  background-position: center -5.21vw;
+  background-repeat: no-repeat;
+  background-size: 150.13vw 50.46vw;
+  height: 21.42vw;
+}
+body header .heading {
+  display: flex;
+  justify-content: center;
+  height: 13.51vw;
+}
+body header .heading h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 39.58vw;
+  background-image: url(../../../static/img/history/history-back.png);
+  background-size: 39.58vw 13.81vw;
+  font-size: var(--fonth1);
+}
+body .first-p-area {
+  display: flex;
+  justify-content: space-between;
+}
+body .first-p-area .first-collage img {
+  width: 37.5vw;
+  height: 54.69vw;
+}
+body .first-p-area .first-p {
+  width: 37.76vw;
+}
+body .first-p-area .first-p p {
+  font-size: var(--main-text);
+  line-height: 1.67vw;
+  margin-bottom: 2.08vw;
+  text-align: justify;
+}
+body .area-1944 {
+  margin-top: -2.6vw;
+}
+body .area-1944 .area-1944-wrapper {
+  display: flex;
+  justify-content: center;
+}
+body .area-1944 .area-1944-wrapper p {
+  margin-right: -5.21vw;
+  width: 36.46vw;
+  font-size: 31.25vw;
+  background-image: url(../../../static/img/point.png);
+  background-size: 27.14vw 28.44vw;
+  background-repeat: no-repeat;
+  background-position: 10.21vw -1.21vw;
+}
+body .area-1944 .area-1944-wrapper :nth-child(2) {
+  margin-top: 10.6vw;
+  background-position: 11.11vw 2.11vw;
+}
+body .second-p-area {
+  display: flex;
+  justify-content: space-between;
+}
+body .second-p-area .second-collage img {
+  width: 46.88vw;
+  height: 75.52vw;
+  margin-top: -3.8vw;
+}
+body .second-p-area .second-p {
+  width: 37.76vw;
+}
+body .second-p-area .second-p p {
+  margin-left: -6.6vw;
+  font-size: var(--main-text);
+  line-height: 1.67vw;
+  margin-bottom: 2.08vw;
+  text-align: justify;
+}
+body .second-p-area .second-p :nth-child(5),
+body .second-p-area .second-p :nth-child(6),
+body .second-p-area .second-p :nth-child(7),
+body .second-p-area .second-p :nth-child(8) {
+  margin-left: 1.6vw;
+}
+
+/*# sourceMappingURL=history.css.map */
