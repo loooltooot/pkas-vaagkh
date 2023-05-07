@@ -1,0 +1,25 @@
+body {
+  overflow-x: clip;
+  header {
+    .heading {
+      height: 13.51vw;
+      h2 {
+        margin-top: 5.21vw;
+        width: 59.58vw;
+        font-size: var(--fonth1);
+      }
+    }
+  }
+  main {
+    .main-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: -5.21vw;
+      img {
+        width: 43.75vw;
+        height: 123.96vw;
+      }
+    }
+  }
+}

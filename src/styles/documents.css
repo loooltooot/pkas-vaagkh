@@ -1,0 +1,42 @@
+body {
+  overflow-x: clip;
+}
+body .wrapper {
+  max-width: 52.04vw;
+}
+body header .heading {
+  display: flex;
+  justify-content: center;
+  height: 13.51vw;
+  margin-top: 5.21vw;
+}
+body header .heading h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61.04vw;
+  height: 6.21vw;
+  font-size: var(--fonth1);
+  border-bottom: 1px solid white;
+}
+body main .main-content {
+  margin-top: -5.21vw;
+}
+body main .main-content img {
+  width: 43.75vw;
+  height: 123.96vw;
+}
+body main .main-content .doc-1-area .doc-1 p {
+  font-size: var(--fonth2);
+  margin-bottom: 0.52vw;
+  margin-top: 1.52vw;
+}
+body main .main-content .doc-1-area .main-text {
+  width: 24.48vw;
+}
+body footer .wrapper {
+  margin: 0 auto;
+  max-width: 78.13vw;
+}
+
+/*# sourceMappingURL=documents.css.map */

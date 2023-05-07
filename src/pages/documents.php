@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,71 +11,72 @@
     <link rel="stylesheet" href="src/styles/documents.css">
     <title>Колледж архитектуры и строительства</title>
 </head>
-<body>
-        <!-- Start header -->
-        <header class="header">
-            <div class="wrapper">
-                <div class="link">
-                    <a href="/">Вернуться на главную</a>
-                </div>
-                <div class="heading">
-                    <h2>
-                        ОБЯЗАТЕЛЬНЫЕ ДОКУМЕНТЫ
-                    </h2>
-                </div>
-            </div>
-        </header>
-        <!-- End header -->
 
-        <!-- Start main-content -->
-        <main>
-            <section class="main-content-area">
-                <div class="wrapper">
-                    <div class="main-content">
-                        <div class="doc-1-area">
-                            <div class="doc-1">
-                                <p>
-                                    ДОКУМЕНТ №1
-                                </p>
-                            </div>
-                            <div class="main-text">
-                                <p>
-                                    оригинал или ксерокопию документов, удостоверяющих личность и гражданство;
-                                </p>
-                            </div>
-                        </div>
-                        <div class="doc-2-area">
-                            <div class="doc-1">
-                                <p>
-                                    ДОКУМЕНТ №2
-                                </p>
-                            </div>
-                            <div class="main-text">
-                                <p>
-                                    оригинал или ксерокопию документа государственного образца об образовании;
-                                </p>
-                            </div>
-                        </div>
-                        <div class="doc-3-area">
+<body>
+    <!-- Start header -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="link">
+                <a href="/">Вернуться на главную</a>
+            </div>
+            <div class="heading">
+                <h2>
+                    ОБЯЗАТЕЛЬНЫЕ ДОКУМЕНТЫ
+                </h2>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Start main-content -->
+    <main>
+        <section class="main-content-area">
+            <div class="wrapper">
+                <div class="main-content">
+                    <div class="doc-1-area">
                         <div class="doc-1">
-                                <p>
-                                    ДОКУМЕНТ №3
-                                </p>
-                            </div>
-                            <div class="main-text">
-                                <p>
-                                    4 фотографии (размер 3*4). 
-                                </p>
-                            </div>
+                            <p>
+                                ДОКУМЕНТ №1
+                            </p>
+                        </div>
+                        <div class="main-text">
+                            <p>
+                                оригинал или ксерокопию документов, удостоверяющих личность и гражданство;
+                            </p>
+                        </div>
+                    </div>
+                    <div class="doc-1-area">
+                        <div class="doc-1">
+                            <p>
+                                ДОКУМЕНТ №2
+                            </p>
+                        </div>
+                        <div class="main-text">
+                            <p>
+                                оригинал или ксерокопию документа государственного образца об образовании;
+                            </p>
+                        </div>
+                    </div>
+                    <div class="doc-1-area">
+                        <div class="doc-1">
+                            <p>
+                                ДОКУМЕНТ №3
+                            </p>
+                        </div>
+                        <div class="main-text">
+                            <p>
+                                4 фотографии (размер 3*4).
+                            </p>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        <!-- End main-content -->
-
-       <!-- Start footer -->
-       <footer>
+            </div>
+        </section>
+    </main>
+    <!-- End main-content -->
+    <div class="spacer"></div>
+    <!-- Start footer -->
+    <footer>
         <div class="wrapper">
             <div class="footer">
                 <div>
@@ -164,8 +166,6 @@
     </div>
     <!-- End Modal fidback-->
 
-    <!-- Start points -->
-    <img src="../../static/img/point.png" alt="">
-    <!-- End points -->
 </body>
+
 </html>

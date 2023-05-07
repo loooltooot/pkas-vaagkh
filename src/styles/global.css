@@ -28,6 +28,9 @@ a {
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 body .wrapper {
   margin: 0 auto;
@@ -76,8 +79,9 @@ body header .under-intro h2 {
   font-size: var(--fonth1);
 }
 body footer {
-  margin-top: 20.83vw;
+  margin-top: 20vw;
   background-image: url(../../../static/img/home/footer-back.png);
+  background-size: 100%;
 }
 body .footer {
   display: flex;
@@ -201,6 +205,100 @@ body .modal .btn-modal .btn-complaint {
 body .modal .btn-modal .btn-complaint:hover {
   color: var(--background-color);
   background-color: antiquewhite;
+}
+@keyframes floating1 {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes floating2 {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+body .images img {
+  position: absolute;
+  width: 10.42vw;
+  height: 10.42vw;
+  animation-name: floating;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+body .images :nth-child(1) {
+  left: 10.94vw;
+  top: 25.57vw;
+  filter: blur(30px);
+  animation-name: floating1;
+  animation-delay: 0.5s;
+}
+body .images :nth-child(2) {
+  left: 79.84vw;
+  top: 10.47vw;
+  width: 19.58vw;
+  height: 19.53vw;
+  filter: blur(30px);
+  animation-name: floating2;
+}
+body .images :nth-child(3) {
+  left: -2.81vw;
+  top: 59.17vw;
+  filter: blur(30px);
+  animation-name: floating2;
+}
+body .images :nth-child(4) {
+  left: 82.03vw;
+  top: 72.03vw;
+  width: 15.16vw;
+  height: 15.16vw;
+  filter: blur(30px);
+  animation-name: floating1;
+}
+body .images :nth-child(5) {
+  z-index: -1;
+  left: 18.02vw;
+  top: 91.51vw;
+  width: 25.16vw;
+  height: 25.16vw;
+  animation-name: floating1;
+  animation-delay: 1s;
+}
+body .images :nth-child(6) {
+  left: 90.99vw;
+  top: 110.89vw;
+  animation-name: floating2;
+  filter: blur(10px);
+}
+body .images :nth-child(7) {
+  left: 3.44vw;
+  top: 140vw;
+  width: 7.33vw;
+  height: 7.33vw;
+  animation-name: floating1;
+  filter: blur(30px);
+}
+body .images :nth-child(8) {
+  animation-name: floating1;
+  left: 76.25vw;
+  top: 130vw;
+  filter: blur(30px);
+  animation-delay: 1s;
+}
+
+.spacer {
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=global.css.map */

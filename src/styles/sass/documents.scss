@@ -1,0 +1,50 @@
+body {
+  .wrapper {
+    max-width: 52.04vw;
+  }
+  overflow-x: clip;
+  header {
+    .heading {
+      display: flex;
+      justify-content: center;
+      height: 13.51vw;
+      margin-top: 5.21vw;
+      h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 61.04vw;
+        height: 6.21vw;
+        font-size: var(--fonth1);
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+  main {
+    .main-content {
+      margin-top: -5.21vw;
+      img {
+        width: 43.75vw;
+        height: 123.96vw;
+      }
+      .doc-1-area {
+        .doc-1 {
+          p {
+            font-size: var(--fonth2);
+            margin-bottom: 0.52vw;
+            margin-top: 1.52vw;
+          }
+        }
+        .main-text {
+          width: 24.48vw;
+        }
+      }
+    }
+  }
+  footer {
+    .wrapper {
+      margin: 0 auto;
+      max-width: 78.13vw;
+    }
+  }
+}
