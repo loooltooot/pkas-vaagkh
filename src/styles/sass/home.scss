@@ -58,6 +58,7 @@ body {
   .tel-menu-area {
     display: flex;
     position: relative;
+    margin-bottom: 8vw;
 
     .tel-menu {
       width: 46.88vw;
@@ -112,10 +113,27 @@ body {
 
   // Новости
   .main-news {
+    .whole-news-wrapper {
+      border-bottom: 1px solid #ffffff;
+      flex-grow: 1;
+      padding: 1.6vw 0;
+
+      &:nth-child(1),
+      &:nth-child(3) {
+        border-right: .05vw solid #ffffff;
+        padding-right: 1.6vw;
+      }
+
+      &:nth-child(2),
+      &:nth-child(4) {
+        padding-left: 1.6vw;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
     .news {
       width: 35.78vw;
-      border-bottom: 1px solid #ffffff;
-      padding: 1.6vw;
 
       .img-news {
         img {
@@ -124,10 +142,7 @@ body {
         }
       }
 
-      &:nth-child(1),
-      &:nth-child(3) {
-        border-right: 1px solid #ffffff;
-      }
+
     }
 
     .name-news {
@@ -138,6 +153,7 @@ body {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      margin-top: 4.11vw;
     }
 
     h2 {

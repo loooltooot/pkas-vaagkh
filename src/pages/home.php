@@ -105,9 +105,8 @@
                     <p>Звоните прямо сейчас</p>
                 </a>
             </div>
+        </section>
     </div>
-    </section>
-
     <!-- End tel menu -->
 
     <!-- Start main news -->
@@ -121,84 +120,92 @@
                     <p>Пензенского колледжа архитектуры и <br>
                         строительства</p>
                     <div class="news-list">
-                        <div class="news">
-                            <div class="img-news">
-                                <img src="../static/img/news/news-test.png" alt="">
-                                <img src="../static/img/news/news-test2.png" alt="">
-                            </div>
-                            <div class="text-news">
-                                <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                <p>27 апреля 2023</p><br>
-                            </div>
-                            <div class="news-wrapper">
-                                <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                    строительства 27 апреля студенты <br>
-                                    написали Диктант Победы.
-                                </p>
-                                <a href="" class="btn-news">
-                                    <img src="../static/img/news/arrow.png" alt="">
-                                    <p>читать</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="news">
-                            <div class="img-news">
-                                <img src="../static/img/news/news-test.png" alt="">
-                                <img src="../static/img/news/news-test2.png" alt="">
-                            </div>
-                            <div class="text-news">
-                                <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                <p>27 апреля 2023</p><br>
-                            </div>
-                            <div class="news-wrapper">
-                                <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                    строительства 27 апреля студенты <br>
-                                    написали Диктант Победы.
-                                </p>
-                                <a href="" class="btn-news">
-                                    <img src="../static/img/news/arrow.png" alt="">
-                                    <p>читать</p>
-                                </a>
+                        <div class="whole-news-wrapper">
+                            <div class="news">
+                                <div class="img-news">
+                                    <img src="../static/img/news/news-test.png" alt="">
+                                    <img src="../static/img/news/news-test2.png" alt="">
+                                </div>
+                                <div class="text-news">
+                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                    <p>27 апреля 2023</p><br>
+                                </div>
+                                <div class="news-wrapper">
+                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                        строительства 27 апреля студенты <br>
+                                        написали Диктант Победы.
+                                    </p>
+                                    <a href="" class="btn-news">
+                                        <img src="../static/img/news/arrow.png" alt="">
+                                        <p>читать</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="news">
-                            <div class="img-news">
-                                <img src="../static/img/news/news-test.png" alt="">
-                                <img src="../static/img/news/news-test2.png" alt="">
-                            </div>
-                            <div class="text-news">
-                                <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                <p>27 апреля 2023</p><br>
-                            </div>
-                            <div class="news-wrapper">
-                                <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                    строительства 27 апреля студенты <br>
-                                    написали Диктант Победы.
-                                </p>
-                                <a href="" class="btn-news">
-                                    <img src="../static/img/news/arrow.png" alt="">
-                                    <p>читать</p>
-                                </a>
+                        <div class="whole-news-wrapper">
+                            <div class="news">
+                                <div class="img-news">
+                                    <img src="../static/img/news/news-test.png" alt="">
+                                    <img src="../static/img/news/news-test2.png" alt="">
+                                </div>
+                                <div class="text-news">
+                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                    <p>27 апреля 2023</p><br>
+                                </div>
+                                <div class="news-wrapper">
+                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                        строительства 27 апреля студенты <br>
+                                        написали Диктант Победы.
+                                    </p>
+                                    <a href="" class="btn-news">
+                                        <img src="../static/img/news/arrow.png" alt="">
+                                        <p>читать</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="news">
-                            <div class="img-news">
-                                <img src="../static/img/news/news-test.png" alt="">
-                                <img src="../static/img/news/news-test2.png" alt="">
+                        <div class="whole-news-wrapper">
+                            <div class="news">
+                                <div class="img-news">
+                                    <img src="../static/img/news/news-test.png" alt="">
+                                    <img src="../static/img/news/news-test2.png" alt="">
+                                </div>
+                                <div class="text-news">
+                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                    <p>27 апреля 2023</p><br>
+                                </div>
+                                <div class="news-wrapper">
+                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                        строительства 27 апреля студенты <br>
+                                        написали Диктант Победы.
+                                    </p>
+                                    <a href="" class="btn-news">
+                                        <img src="../static/img/news/arrow.png" alt="">
+                                        <p>читать</p>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="text-news">
-                                <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                <p>27 апреля 2023</p><br>
-                            </div>
-                            <div class="news-wrapper">
-                                <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                    строительства 27 апреля студенты <br>
-                                    написали Диктант Победы.
-                                </p>
-                                <a href="" class="btn-news">
-                                    <img src="../static/img/news/arrow.png" alt="">
-                                    <p>читать</p>
-                                </a>
+                        </div>
+                        <div class="whole-news-wrapper">
+                            <div class="news">
+                                <div class="img-news">
+                                    <img src="../static/img/news/news-test.png" alt="">
+                                    <img src="../static/img/news/news-test2.png" alt="">
+                                </div>
+                                <div class="text-news">
+                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
+                                    <p>27 апреля 2023</p><br>
+                                </div>
+                                <div class="news-wrapper">
+                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
+                                        строительства 27 апреля студенты <br>
+                                        написали Диктант Победы.
+                                    </p>
+                                    <a href="" class="btn-news">
+                                        <img src="../static/img/news/arrow.png" alt="">
+                                        <p>читать</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
