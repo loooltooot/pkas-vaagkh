@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/actions.css">
+    <link rel="stylesheet" href="src/styles/documents.css">
     <title>Колледж архитектуры и строительства</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
                 </div>
                 <div class="heading">
                     <h2>
-                        ПЛАН МЕРОПРИЯТИЙ
+                        ОБЯЗАТЕЛЬНЫЕ ДОКУМЕНТЫ
                     </h2>
                 </div>
             </div>
@@ -31,7 +31,42 @@
             <section class="main-content-area">
                 <div class="wrapper">
                     <div class="main-content">
-                        <img src="../../static/img/timetable/timetable.png" alt="">
+                        <div class="doc-1-area">
+                            <div class="doc-1">
+                                <p>
+                                    ДОКУМЕНТ №1
+                                </p>
+                            </div>
+                            <div class="main-text">
+                                <p>
+                                    оригинал или ксерокопию документов, удостоверяющих личность и гражданство;
+                                </p>
+                            </div>
+                        </div>
+                        <div class="doc-2-area">
+                            <div class="doc-1">
+                                <p>
+                                    ДОКУМЕНТ №2
+                                </p>
+                            </div>
+                            <div class="main-text">
+                                <p>
+                                    оригинал или ксерокопию документа государственного образца об образовании;
+                                </p>
+                            </div>
+                        </div>
+                        <div class="doc-3-area">
+                        <div class="doc-1">
+                                <p>
+                                    ДОКУМЕНТ №3
+                                </p>
+                            </div>
+                            <div class="main-text">
+                                <p>
+                                    4 фотографии (размер 3*4). 
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -130,13 +165,6 @@
     <!-- End Modal fidback-->
 
     <!-- Start points -->
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
-    <img src="../../static/img/point.png" alt="">
     <img src="../../static/img/point.png" alt="">
     <!-- End points -->
 </body>
