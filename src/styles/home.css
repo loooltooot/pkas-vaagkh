@@ -123,6 +123,10 @@ body .main-news .news-wrapper .btn-news p {
   transition: color 0.2s;
   font-size: var(--main-text);
 }
+body .main-news .news-wrapper .btn-news img {
+  width: 4.79vw;
+  height: 1.61vw;
+}
 body .main-news .news-wrapper .btn-news:hover {
   color: #ccc;
 }

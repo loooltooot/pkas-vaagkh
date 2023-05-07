@@ -28,6 +28,9 @@ a {
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 body .wrapper {
   margin: 0 auto;
@@ -76,8 +79,9 @@ body header .under-intro h2 {
   font-size: var(--fonth1);
 }
 body footer {
-  margin-top: 20.83vw;
+  margin-top: 20vw;
   background-image: url(../../../static/img/home/footer-back.png);
+  background-size: 100%;
 }
 body .footer {
   display: flex;
@@ -291,6 +295,10 @@ body .images :nth-child(8) {
   top: 130vw;
   filter: blur(30px);
   animation-delay: 1s;
+}
+
+.spacer {
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=global.css.map */

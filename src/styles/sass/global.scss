@@ -28,10 +28,15 @@ a {
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
   .wrapper {
     margin: 0 auto;
     max-width: 78.13vw;
   }
+
   // Хеадер
   header {
     .link {
@@ -40,11 +45,14 @@ body {
       padding-top: 1.56vw;
       transition: 0.1s ease;
       color: white;
+
       &:hover {
         color: #faf9f973;
       }
+
       a {
         transition: 0.5s ease;
+
         &:hover {
           box-shadow: 0 2px 0 0 currentcolor;
         }
@@ -58,49 +66,61 @@ body {
       text-align: center;
       padding-top: 3vw;
     }
+
     .intro {
       display: flex;
       flex-wrap: wrap;
       align-items: baseline;
       margin-top: 11.98vw;
+
       h1 {
         font-size: 10.42vw;
         margin: 0;
       }
+
       .header-logo {
         margin-left: auto;
       }
+
       .under-intro {
         font-size: var(--fonth1);
       }
     }
+
     .under-intro {
       h2 {
         font-size: var(--fonth1);
       }
     }
   }
+
   footer {
-    margin-top: 20.83vw;
+    margin-top: 20vw;
     background-image: url(../../../static/img/home/footer-back.png);
+    background-size: 100%;
   }
+
   .footer {
     display: flex;
     justify-content: space-between;
+
     div {
       width: 23.44vw;
+
       span {
         display: block;
         padding-bottom: 1.56vw;
         font-size: var(--fonth2);
       }
     }
+
     ul {
       li {
         margin-bottom: 2.08vw;
 
         font-size: var(--main-text);
       }
+
       .btn-complaint {
         margin-top: 2.6vw;
         color: var(--text-color);
@@ -111,6 +131,7 @@ body {
         height: 3.65vw;
         background: none;
         transition: 0.2s ease;
+
         &:hover {
           color: var(--background-color);
           background-color: antiquewhite;
@@ -118,6 +139,7 @@ body {
       }
     }
   }
+
   //Модальное окно
   .modal {
     display: none;
@@ -172,14 +194,14 @@ body {
         }
 
         /* для элемента label, связанного с .custom-checkbox */
-        .custom-checkbox + label {
+        .custom-checkbox+label {
           display: inline-flex;
           align-items: center;
           user-select: none;
         }
 
         /* создание в label псевдоэлемента before со следующими стилями */
-        .custom-checkbox + label::before {
+        .custom-checkbox+label::before {
           content: "";
           display: inline-block;
           width: 1.3vw;
@@ -195,13 +217,13 @@ body {
         }
 
         /* стили для чекбокса, находящегося в состоянии checked */
-        .custom-checkbox:checked + label::before {
+        .custom-checkbox:checked+label::before {
           background-color: white;
           background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23ea531d' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
         }
 
         /* стили для чекбокса, находящегося в состоянии disabled */
-        .custom-checkbox:disabled + label::before {
+        .custom-checkbox:disabled+label::before {
           background-color: #e9ecef;
         }
       }
@@ -228,29 +250,36 @@ body {
       }
     }
   }
+
   .images {
     @keyframes floating1 {
       0% {
         transform: translateY(0%);
       }
+
       50% {
         transform: translateY(15%);
       }
+
       100% {
         transform: translateY(0%);
       }
     }
+
     @keyframes floating2 {
       0% {
         transform: translateY(0%);
       }
+
       50% {
         transform: translateY(20%);
       }
+
       100% {
         transform: translateY(0%);
       }
     }
+
     img {
       position: absolute;
       width: 10.42vw;
@@ -260,6 +289,7 @@ body {
       animation-iteration-count: infinite;
       animation-timing-function: ease-in-out;
     }
+
     :nth-child(1) {
       left: 10.94vw;
       top: 25.57vw;
@@ -267,6 +297,7 @@ body {
       animation-name: floating1;
       animation-delay: 0.5s;
     }
+
     :nth-child(2) {
       left: 79.84vw;
       top: 10.47vw;
@@ -275,12 +306,14 @@ body {
       filter: blur(30px);
       animation-name: floating2;
     }
+
     :nth-child(3) {
       left: -2.81vw;
       top: 59.17vw;
       filter: blur(30px);
       animation-name: floating2;
     }
+
     :nth-child(4) {
       left: 82.03vw;
       top: 72.03vw;
@@ -289,6 +322,7 @@ body {
       filter: blur(30px);
       animation-name: floating1;
     }
+
     :nth-child(5) {
       z-index: -1;
       left: 18.02vw;
@@ -298,12 +332,14 @@ body {
       animation-name: floating1;
       animation-delay: 1s;
     }
+
     :nth-child(6) {
       left: 90.99vw;
       top: 110.89vw;
       animation-name: floating2;
       filter: blur(10px);
     }
+
     :nth-child(7) {
       left: 3.44vw;
       top: 140vw;
@@ -312,6 +348,7 @@ body {
       animation-name: floating1;
       filter: blur(30px);
     }
+
     :nth-child(8) {
       animation-name: floating1;
       left: 76.25vw;
@@ -320,4 +357,8 @@ body {
       animation-delay: 1s;
     }
   }
+}
+
+.spacer {
+  flex-grow: 1;
 }

@@ -6,6 +6,7 @@ body {
     background-size: 150.13vw 50.46vw;
     height: 51.42vw;
   }
+
   // Навигация
   nav {
     ul {
@@ -31,11 +32,11 @@ body {
     margin-top: 5.21vw;
     margin-bottom: 13.02vw;
 
-    & > ul {
+    &>ul {
       display: flex;
       justify-content: space-between;
 
-      & > div {
+      &>div {
         width: 24.48vw;
 
         &:last-child {
@@ -62,7 +63,7 @@ body {
       width: 46.88vw;
 
       div {
-        & > p {
+        &>p {
           text-align: justify;
           font-size: var(--fonth2);
           margin-bottom: 3.6vw;
@@ -171,6 +172,11 @@ body {
         p {
           transition: color 0.2s;
           font-size: var(--main-text);
+        }
+
+        img {
+          width: 4.79vw;
+          height: 1.61vw;
         }
 
         &:hover {

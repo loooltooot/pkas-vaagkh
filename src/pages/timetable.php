@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,36 +11,37 @@
     <link rel="stylesheet" href="src/styles/timetable.css">
     <title>Колледж архитектуры и строительства</title>
 </head>
+
 <body>
-        <!-- Start header -->
-        <header class="header">
+    <!-- Start header -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="link">
+                <a href="/">Вернуться на главную</a>
+            </div>
+            <div class="heading">
+                <h2>
+                    РАСПИСАНИЕ ЗАНЯТИЙ
+                </h2>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Start main-content -->
+    <main>
+        <section class="main-content-area">
             <div class="wrapper">
-                <div class="link">
-                    <a href="/">Вернуться на главную</a>
-                </div>
-                <div class="heading">
-                    <h2>
-                        РАСПИСАНИЕ ЗАНЯТИЙ
-                    </h2>
+                <div class="main-content">
+                    <img src="../../static/img/timetable/timetable.png" alt="">
                 </div>
             </div>
-        </header>
-        <!-- End header -->
-
-        <!-- Start main-content -->
-        <main>
-            <section class="main-content-area">
-                <div class="wrapper">
-                    <div class="main-content">
-                        <img src="../../static/img/timetable/timetable.png" alt="">
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- End main-content -->
-
-       <!-- Start footer -->
-       <footer>
+        </section>
+    </main>
+    <!-- End main-content -->
+    <div class="spacer"></div>
+    <!-- Start footer -->
+    <footer>
         <div class="wrapper">
             <div class="footer">
                 <div>
@@ -142,4 +144,5 @@
     </div>
     <!-- End points -->
 </body>
+
 </html>

@@ -208,7 +208,7 @@
         </div>
     </main>
     <!-- End main news -->
-
+    <div class="spacer"></div>
     <!-- Start footer -->
     <footer>
         <div class="wrapper">
