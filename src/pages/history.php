@@ -13,7 +13,7 @@
     <header class="header">
         <div class="wrapper">
             <div class="link">
-                <a href="/home">Вернуться на главную</a>
+                <a href="/">Вернуться на главную</a>
             </div>
             <div class="heading">
                 <h2>
