@@ -66,7 +66,7 @@ CREATE TABLE `aplly` (
 CREATE TABLE `feedback` (
   `full_name` int(11) NOT NULL,
   `email` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `content` varchar(512) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `file` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
   `ur_lico` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -80,7 +80,7 @@ CREATE TABLE `feedback` (
 CREATE TABLE `news` (
   `id` int(11) NOT NULL,
   `title` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `content` varchar(1024) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `time` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -97,7 +97,7 @@ CREATE TABLE `psychologist` (
   `patronim` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
   `title` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `content` varchar(512) COLLATE utf8mb4_unicode_ci NOT NULL
+  `content` text COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------

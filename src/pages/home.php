@@ -1,3 +1,6 @@
+<?php
+include("src/php/utils/conn.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -119,94 +122,11 @@
                     <p>Пензенского колледжа архитектуры и <br>
                         строительства</p>
                     <div class="news-list">
-                        <div class="whole-news-wrapper">
-                            <div class="news">
-                                <div class="img-news">
-                                    <img src="../static/img/news/news-test.png" alt="">
-                                    <img src="../static/img/news/news-test2.png" alt="">
-                                </div>
-                                <div class="text-news">
-                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                    <p>27 апреля 2023</p><br>
-                                </div>
-                                <div class="news-wrapper">
-                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                        строительства 27 апреля студенты <br>
-                                        написали Диктант Победы.
-                                    </p>
-                                    <a href="" class="btn-news">
-                                        <img src="../static/img/news/arrow.png" alt="">
-                                        <p>читать</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="whole-news-wrapper">
-                            <div class="news">
-                                <div class="img-news">
-                                    <img src="../static/img/news/news-test.png" alt="">
-                                    <img src="../static/img/news/news-test2.png" alt="">
-                                </div>
-                                <div class="text-news">
-                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                    <p>27 апреля 2023</p><br>
-                                </div>
-                                <div class="news-wrapper">
-                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                        строительства 27 апреля студенты <br>
-                                        написали Диктант Победы.
-                                    </p>
-                                    <a href="" class="btn-news">
-                                        <img src="../static/img/news/arrow.png" alt="">
-                                        <p>читать</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="whole-news-wrapper">
-                            <div class="news">
-                                <div class="img-news">
-                                    <img src="../static/img/news/news-test.png" alt="">
-                                    <img src="../static/img/news/news-test2.png" alt="">
-                                </div>
-                                <div class="text-news">
-                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                    <p>27 апреля 2023</p><br>
-                                </div>
-                                <div class="news-wrapper">
-                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                        строительства 27 апреля студенты <br>
-                                        написали Диктант Победы.
-                                    </p>
-                                    <a href="" class="btn-news">
-                                        <img src="../static/img/news/arrow.png" alt="">
-                                        <p>читать</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="whole-news-wrapper">
-                            <div class="news">
-                                <div class="img-news">
-                                    <img src="../static/img/news/news-test.png" alt="">
-                                    <img src="../static/img/news/news-test2.png" alt="">
-                                </div>
-                                <div class="text-news">
-                                    <p class="name-news">ДИКТАНТ ПОБЕДЫ</p><br>
-                                    <p>27 апреля 2023</p><br>
-                                </div>
-                                <div class="news-wrapper">
-                                    <p class="news-subtext">В Пензенском колледже архитектуры и <br>
-                                        строительства 27 апреля студенты <br>
-                                        написали Диктант Победы.
-                                    </p>
-                                    <a href="" class="btn-news">
-                                        <img src="../static/img/news/arrow.png" alt="">
-                                        <p>читать</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php
+                        $result = $conn->query("select * from news order by time limit 4");
+                        include("src/php/focuses/print_news.php");
+                        print_news($result);
+                        ?>
                     </div>
                     <a href="/news" class="all-news">ЧИТАТЬ ВСЕ НОВОСТИ</a>
                 </div>

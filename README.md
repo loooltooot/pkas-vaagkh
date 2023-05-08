@@ -7,7 +7,7 @@ College practice team work
 # Config
 
 ### Web server
-- Nginx
+- Nginx v1.23 & Apache v2.4
 - Redirect to index.php if not found
 
 ### PHP

@@ -1,5 +1,5 @@
 body header {
-  background-image: url(../../../static/img/home/hero-back.png);
+  background-image: url(../../static/img/home/hero-back.png);
   background-position: center -5.21vw;
   background-repeat: no-repeat;
   background-size: 150.13vw 50.46vw;
@@ -121,6 +121,8 @@ body .main-news .text-news p {
 body .main-news .news-subtext {
   font-size: var(--main-text);
   margin-bottom: 3.21vw;
+  width: 25.05vw;
+  text-align: justify;
 }
 body .main-news .news-wrapper {
   margin-left: auto;
