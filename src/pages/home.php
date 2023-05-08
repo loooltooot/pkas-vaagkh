@@ -46,7 +46,6 @@
                         <span class="row">Для ученика</span>
                         <ul class="row-area">
                             <li><a href="/news">Новости</a></li>
-                            <li><a href="#">Контакты</a></li>
                             <li><a href="/apply_for_education">Подать заявление</a></li>
                             <li><a href="/professions">Навигатор профессий</a></li>
                             <li><a href="/dormitory">Общежитие</a></li>
