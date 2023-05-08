@@ -1,5 +1,5 @@
 body header {
-  background-image: url(../../../static/img/home/hero-back.png);
+  background-image: url(../../static/img/home/hero-back.png);
   background-position: center -5.21vw;
   background-repeat: no-repeat;
   background-size: 150.13vw 50.46vw;
@@ -38,6 +38,7 @@ body nav .row {
 body .tel-menu-area {
   display: flex;
   position: relative;
+  margin-bottom: 8vw;
 }
 body .tel-menu-area .tel-menu {
   width: 46.88vw;
@@ -76,17 +77,26 @@ body .btn-tel a p {
   width: 3.65vw;
   line-height: 1.56vw;
 }
+body .main-news .whole-news-wrapper {
+  border-bottom: 1px solid #ffffff;
+  flex-grow: 1;
+  padding: 1.6vw 0;
+}
+body .main-news .whole-news-wrapper:nth-child(1), body .main-news .whole-news-wrapper:nth-child(3) {
+  border-right: 0.05vw solid #ffffff;
+  padding-right: 1.6vw;
+}
+body .main-news .whole-news-wrapper:nth-child(2), body .main-news .whole-news-wrapper:nth-child(4) {
+  padding-left: 1.6vw;
+  display: flex;
+  justify-content: flex-end;
+}
 body .main-news .news {
   width: 35.78vw;
-  border-bottom: 1px solid #ffffff;
-  padding: 1.6vw;
 }
 body .main-news .news .img-news img {
   width: 17.71vw;
   height: 17.71vw;
-}
-body .main-news .news:nth-child(1), body .main-news .news:nth-child(3) {
-  border-right: 1px solid #ffffff;
 }
 body .main-news .name-news {
   padding-top: 1.04vw;
@@ -95,6 +105,7 @@ body .main-news .news-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 4.11vw;
 }
 body .main-news h2 {
   font-size: var(--fonth1);
@@ -110,6 +121,8 @@ body .main-news .text-news p {
 body .main-news .news-subtext {
   font-size: var(--main-text);
   margin-bottom: 3.21vw;
+  width: 25.05vw;
+  text-align: justify;
 }
 body .main-news .news-wrapper {
   margin-left: auto;

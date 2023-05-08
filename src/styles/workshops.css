@@ -1,0 +1,35 @@
+body {
+  overflow-x: clip;
+}
+body header .heading {
+  display: flex;
+  margin-top: 5.21vw;
+}
+body header .heading h2 {
+  display: flex;
+  height: 6.21vw;
+  width: 100vw;
+  font-size: 5vw;
+  border-bottom: 1px solid white;
+}
+body header .subheading {
+  display: flex;
+  align-items: center;
+  height: 3.91vw;
+  width: 31.25vw;
+  text-align: justify;
+}
+body header .subheading p {
+  font-size: var(--fonth2);
+}
+body main .main-content-area .main-content {
+  padding: 1.82vw 3.65vw;
+  border: 1px solid white;
+}
+body main .main-content-area .main-content p {
+  text-align: justify;
+  font-size: var(--main-text);
+  margin-bottom: 1.24vw;
+}
+
+/*# sourceMappingURL=workshops.css.map */

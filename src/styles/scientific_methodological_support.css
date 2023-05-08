@@ -1,0 +1,41 @@
+body {
+  overflow-x: clip;
+}
+body header .heading {
+  display: flex;
+  margin-top: 5.21vw;
+}
+body header .heading h2 {
+  display: flex;
+  height: 11.21vw;
+  width: 57.29vw;
+  font-size: var(--fonth1);
+  border-bottom: 1px solid white;
+}
+body main .main-content-area .definition {
+  padding-top: 2.04vw;
+  height: 6.21vw;
+}
+body main .main-content-area .definition p {
+  text-align: justify;
+  font-size: var(--main-text);
+  padding-bottom: 2.08vw;
+}
+body main .main-content-area .main-content .infografika {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .main-content-area .main-content .infografika img {
+  padding: 2.6vw;
+  width: 53.02vw;
+  height: 53.02vw;
+}
+body main .main-content-area .main-content .main-text p {
+  margin-top: 1.24vw;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=scientific_methodological_support.css.map */

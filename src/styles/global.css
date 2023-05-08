@@ -26,6 +26,7 @@ a {
 }
 
 body {
+  overflow-x: clip;
   background-color: var(--background-color);
   color: var(--text-color);
   display: flex;
@@ -34,7 +35,7 @@ body {
 }
 body .wrapper {
   margin: 0 auto;
-  max-width: 78.13vw;
+  width: 78.13vw;
 }
 body header .link {
   display: flex;

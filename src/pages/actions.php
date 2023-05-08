@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/timetable.css">
-    <title>Колледж архитектуры и строительства</title>
+    <title>План мероприятий</title>
 </head>
 
 <body>
