@@ -1,0 +1,140 @@
+body main {
+  overflow-x: clip;
+}
+body header {
+  margin-bottom: 3.65vw;
+}
+body header .heading {
+  display: flex;
+  margin-top: 5.21vw;
+}
+body header .heading h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.21vw;
+  font-size: 5vw;
+}
+body header .heading-text {
+  font-size: var(--main-text);
+  width: 31.25vw;
+  text-align: justify;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.3fr 1.2fr 0.4fr;
+  gap: 0px 0px;
+  grid-template-areas: "grid-pic grid-duration     grid-entrance" "grid-pic grid-name-duration grid-name-entrance" "grid-pic grid-text grid-text" "grid-name grid-text grid-text";
+}
+.container::after {
+  content: "";
+  position: absolute;
+  bottom: -0.055vw;
+  left: -10.86vw;
+  width: 100vw;
+  height: 0.11vw;
+  background: white;
+  z-index: -1;
+}
+.container:first-child::before {
+  content: "";
+  position: absolute;
+  top: -0.055vw;
+  left: -10.86vw;
+  width: 100vw;
+  height: 0.11vw;
+  background: white;
+  z-index: -1;
+}
+
+.container1 {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 0.2fr 0.7fr 0.4fr;
+}
+
+.container2 {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.4fr 0.6fr 0.4fr;
+}
+
+.grid-name-duration {
+  grid-area: grid-name-duration;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-name-duration p {
+  font-size: var(--fonth2);
+}
+
+.grid-name-entrance {
+  grid-area: grid-name-entrance;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-name-entrance p {
+  font-size: var(--fonth2);
+}
+
+.grid-pic {
+  grid-area: grid-pic;
+  border: 1px solid white;
+  padding: 0.78vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.52vw;
+}
+
+.grid-duration {
+  grid-area: grid-duration;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.6vw;
+  border-left: 0;
+  border-right: 0;
+}
+.grid-duration p {
+  margin-bottom: 1.04vw;
+}
+
+.grid-entrance {
+  grid-area: grid-entrance;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.6vw;
+}
+
+.grid-name {
+  grid-area: grid-name;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 0;
+  padding: 1.04vw;
+}
+.grid-name p {
+  font-size: var(--fonth2);
+}
+
+.grid-text {
+  grid-area: grid-text;
+  border: 1px solid white;
+  border-left: 0;
+  padding: 1.56vw 2.6vw;
+}
+
+/*# sourceMappingURL=professions.css.map */

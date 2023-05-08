@@ -26,6 +26,7 @@ a {
 }
 
 body {
+  overflow-x: clip;
   background-color: var(--background-color);
   color: var(--text-color);
   display: flex;
