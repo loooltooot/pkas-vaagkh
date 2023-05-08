@@ -28,9 +28,6 @@
                 <p>
                     национальные проекты России
                 </p>
-                <p>
-                    образование
-                </p>
             </div>
         </div>
     </header>
@@ -149,11 +146,6 @@
     </div>
     <!-- End Modal fidback-->
 
-    <!-- Start points -->
-    <div class="images">
-        <img src="../../static/img/huetakakayato.png" alt="">
-    </div>
-    <!-- End points -->
 </body>
 
 </html>
