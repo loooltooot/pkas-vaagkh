@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/dormitory.css">
-    <title>Общежитие</title>
+    <link rel="stylesheet" href="src/styles/workshops.css">
+    <title>Мастерские</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
             </div>
             <div class="heading">
                 <h2>
-                    ОБЩЕЖИТИЕ
+                    ПОДАТЬ ЗАЯВЛЕНИЕ
                 </h2>
             </div>
         </div>
@@ -33,26 +33,60 @@
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
-                    <p>
-                        Колледж располагает двумя благоустроенными общежитиями на 590 мест(по адресу ул.набережная р.Пенза 3а, ул.Собинова 7). Все иногородние студенты, нуждающиеся в жилье, обеспечиваются местами.  
-                    </p>
-                    <p>
-                        Комнаты общежития по ул.Набережная р.Пенза расположены по секциям и рассчитаны на проживание 2-х и 3-х человек, в общежитии по Собинова коридорного типа – все комнаты трехместные. 
-                    </p>
-                    <p>
-                        В общежитиях созданы социально–бытовые условия для проживания и организации досуга. Помещения содержатся в соответствии с установленными санитарными правилами и нормами.
-                    </p>
-                    <p>
-                        Общежития укомплектованы мебелью, бытовым оборудованием, постельными принадлежностями и другим инвентарем. Имеются газифицированные кухни и кухни с электроплитами, душевые комнаты, комнаты для занятий, комнаты отдыха(музыкальная, художественная гостиные, комнаты для игры в настольный теннис), тренажерные залы, физкультурно-оздоровительный центр «Триумф». На 1 этаже общежития по ул.Набережная р. Пенза работают столовая и буфет. Правила проживания в общежитии. Студенческий совет общежития План мероприятий
-                    </p>
-                </div>
-                <div class="main-img">
-                    <div class="main-img1">
-                        <img src="../../static/img/dormitory/dormitory1.png" alt="">
-                    </div>
-                    <div class="main-img2">
-                        <img src="../../static/img/dormitory/dormitory2.png" alt="">
-                    </div>
+                   <div class="information">
+                        <div class="title">
+                            <p>
+                                Ваши данные для связи
+                            </p>
+                        </div>
+                        <div class="label">
+                            <form>
+                                <div class="form-group">
+                                    <label for="login">Ваша Фамилия<span class=""></span></label>
+                                    <input type="text" id="username" class="form-control" type="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="login">Ваше Имя<span class=""></span></label>
+                                    <input type="text" id="usersurname" class="form-control" type="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="login">Ваше Отчетство<span class=""></span></label>
+                                    <input type="text" id="usersecondname" class="form-control" type="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="login">Почта<span class=""></span></label>
+                                    <input type="text" id="email" class="form-control" type="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Файл<span class=""></span></label>
+                                    <input type="file" id="file" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+                   </div>
+                   <div class="clarifications">
+                        <div class="title">
+                                    <p>
+                                        Обязательные уточнения
+                                    </p>
+                                </div>
+                                <div class="label">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="login">Специальность<span class=""></span></label>
+                                            <input type="text" id="username" class="form-control" type="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="login">Аттестационный бал<span class=""></span></label>
+                                            <input type="text" id="usersurname" class="form-control" type="">
+                                        </div>
+                                        <div class="btn-modal">
+                                            <button class="btn-complaint">Отправить</button>
+                                        </div>
+                                    </form>
+                                </div>
+                        </div>
+                   </div>
                 </div>
             </div>
         </section>
@@ -152,7 +186,7 @@
 
     <!-- Start points -->
     <div class="images">
-        <img src="../../static/img/point.png" alt="">
+        <img src="../../static/img/line.png" alt="">
     </div>
     <!-- End points -->
 </body>
