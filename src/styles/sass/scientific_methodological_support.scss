@@ -1,0 +1,49 @@
+body {
+  overflow-x: clip;
+  header {
+    .heading {
+      display: flex;
+      margin-top: 5.21vw;
+      h2 {
+        display: flex;
+        height: 11.21vw;
+        width: 57.29vw;
+        font-size: var(--fonth1);
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+  main {
+    .main-content-area {
+      .definition {
+        padding-top: 2.04vw;
+        height: 6.21vw;
+        p {
+          text-align: justify;
+          font-size: var(--main-text);
+          padding-bottom: 2.08vw;
+        }
+      }
+      .main-content {
+        .infografika {
+          border-top: 1px solid white;
+          border-bottom: 1px solid white;
+          img {
+            padding: 2.6vw;
+            width: 53.02vw;
+            height: 53.02vw;
+          }
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .main-text {
+          p {
+            margin-top: 1.24vw;
+            text-align: justify;
+          }
+        }
+      }
+    }
+  }
+}

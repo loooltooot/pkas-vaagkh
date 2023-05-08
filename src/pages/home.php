@@ -63,9 +63,9 @@ include("src/php/utils/conn.php");
                     <div>
                         <span class="row">Для преподавателя</span>
                         <ul class="row-area">
-                            <li><a href="certification.php">Аттестация педагогических
+                            <li><a href="/for_teachers/certification">Аттестация педагогических
                                     работников</a></li>
-                            <li><a href="scientific_methodological_support.php">Научно-методическое
+                            <li><a href="/for_teachers/scientific_methodological_support">Научно-методическое
                                     обеспечение
                                     образовательного
                                     процесса</a></li>
