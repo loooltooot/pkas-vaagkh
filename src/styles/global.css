@@ -10,7 +10,18 @@
   --fonth2: 1.67vw;
   --main-text: 1.25vw;
   --background-color: #191919;
+  --primary-color: #EA531D;
   --text-color: white;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+::-moz-selection {
+  background-color: var(--primary-color);
+  color: var(--background-color);
 }
 
 html body * {
@@ -121,7 +132,7 @@ body .modal {
   position: fixed;
   top: 50px;
   left: 570px;
-  background: #ea531d;
+  background: var(--primary-color);
   width: 33.85vw;
   height: 39.71vw;
   padding: 3.13vw;

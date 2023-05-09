@@ -10,7 +10,18 @@
   --fonth2: 1.67vw;
   --main-text: 1.25vw;
   --background-color: #191919;
+  --primary-color: #EA531D;
   --text-color: white;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+::-moz-selection {
+  background-color: var(--primary-color);
+  color: var(--background-color);
 }
 
 html body * {
@@ -148,7 +159,7 @@ body {
     position: fixed;
     top: 50px;
     left: 570px;
-    background: #ea531d;
+    background: var(--primary-color);
     width: 33.85vw;
     height: 39.71vw;
     padding: 3.13vw;
@@ -195,14 +206,14 @@ body {
         }
 
         /* для элемента label, связанного с .custom-checkbox */
-        .custom-checkbox + label {
+        .custom-checkbox+label {
           display: inline-flex;
           align-items: center;
           user-select: none;
         }
 
         /* создание в label псевдоэлемента before со следующими стилями */
-        .custom-checkbox + label::before {
+        .custom-checkbox+label::before {
           content: "";
           display: inline-block;
           width: 1.3vw;
@@ -218,13 +229,13 @@ body {
         }
 
         /* стили для чекбокса, находящегося в состоянии checked */
-        .custom-checkbox:checked + label::before {
+        .custom-checkbox:checked+label::before {
           background-color: white;
           background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23ea531d' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
         }
 
         /* стили для чекбокса, находящегося в состоянии disabled */
-        .custom-checkbox:disabled + label::before {
+        .custom-checkbox:disabled+label::before {
           background-color: #e9ecef;
         }
       }
