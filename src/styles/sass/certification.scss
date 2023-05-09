@@ -1,0 +1,74 @@
+body {
+  overflow-x: clip;
+  header {
+    .heading {
+      display: flex;
+      margin-top: 5.21vw;
+      h2 {
+        display: flex;
+        height: 8.21vw;
+        width: 59.29vw;
+        font-size: var(--fonth1);
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+  .main-content {
+    .text {
+      p {
+        margin-top: 1.56vw;
+        text-align: justify;
+        font-size: var(--main-text);
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+    .arrow1-area {
+      .arrow1-name {
+        p {
+          text-align: justify;
+          border-top: 1px solid white;
+          margin-top: 1.56vw;
+          padding-top: 1.56vw;
+          font-size: var(--fonth2);
+        }
+        .arrow1-pic {
+          img {
+            width: 81.15vw;
+            margin-left: -2vw;
+          }
+        }
+        .arrow1-text {
+          p {
+            border-top: 0px;
+            font-size: var(--main-text);
+            margin-top: 1.56vw;
+            text-align: justify;
+            margin-top: -2.6vw;
+            a {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .arrow2-area {
+      .arrow2-name {
+        p {
+          text-align: justify;
+          border-top: 1px solid white;
+          margin-top: 1.56vw;
+          padding-top: 1.56vw;
+          font-size: var(--fonth2);
+        }
+      }
+    }
+    .arrow2-pic {
+      img {
+        width: 81.15vw;
+        margin-left: -2vw;
+      }
+    }
+  }
+}
