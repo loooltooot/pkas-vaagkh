@@ -1,5 +1,13 @@
 <?php
 include("src/php/utils/conn.php");
+$id = $matches[1];
+
+$query = $conn->prepare("select * from news where id = ?");
+$query->bind_param('i', $id);
+$query->execute();
+$query->bind_result($id, $title, $content, $time, $files);
+$query->fetch();
+$query->close();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +20,7 @@ include("src/php/utils/conn.php");
     <link rel="stylesheet" href="../src/styles/normalize.css">
     <link rel="stylesheet" href="../src/styles/global.css">
     <link rel="stylesheet" href="../src/styles/skelet-for-news.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Новости</title>
 </head>
 
@@ -25,7 +33,7 @@ include("src/php/utils/conn.php");
             </div>
             <div class="heading">
                 <h2>
-                    ТУТ ТЕКСТ(ПОСЕТИЛИ ЗАВОД - "ПЕНЗТЯЖПРОМАРТУРА")
+                    <?= mb_strtoupper($title) ?>
                 </h2>
             </div>
         </div>
@@ -37,17 +45,18 @@ include("src/php/utils/conn.php");
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
-                    <div class="white-board">
-                        <img src="../../static/img/skelet-for-news/whiteboardpng.png" alt="">
-                    </div>
+                    <?php
+                    $imgs = explode("&", $files);
+
+                    foreach ($imgs as $img) {
+                    ?>
+                        <img src="../static/img/news/<?= $img ?>" alt="<?= $img ?>">
+                    <?php
+                    }
+                    ?>
                 </div>
                 <div class="main-text">
-                    <p>
-                        тут текст (26 апреля студенты групп 22ОСТ15 и 22ОСТ16 специальности “Сварочное производство” посетили завод Пензтяжпромарматура, на котором им провели экскурсию по разным цехам от производства заготовок до покраски готовой продукции. )
-                    </p>
-                    <p>
-                        тут текст (Студентам было интересно узнать о своем направлении, видах сварки на производстве, прохождении практики и дальнейшей работе на предприятии.)
-                    </p>
+                    <?= $content ?>
                 </div>
                 <div class="main-pic">
                     <img src="../../static/img/skelet-for-news/pkas.png" alt="">
