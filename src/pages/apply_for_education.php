@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/workshops.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Подать заявление</title>
 </head>
 
@@ -33,7 +34,7 @@
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
-                   <div class="information">
+                    <div class="information">
                         <div class="title">
                             <p>
                                 Ваши данные для связи
@@ -63,31 +64,31 @@
                                 </div>
                             </form>
                         </div>
-                   </div>
-                   <div class="clarifications">
+                    </div>
+                    <div class="clarifications">
                         <div class="title">
-                                    <p>
-                                        Обязательные уточнения
-                                    </p>
-                                </div>
-                                <div class="label">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="login">Специальность<span class=""></span></label>
-                                            <input type="text" id="username" class="form-control" type="">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="login">Аттестационный бал<span class=""></span></label>
-                                            <input type="text" id="usersurname" class="form-control" type="">
-                                        </div>
-                                        <div class="btn-modal">
-                                            <button class="btn-complaint">Отправить</button>
-                                        </div>
-                                    </form>
-                                </div>
+                            <p>
+                                Обязательные уточнения
+                            </p>
                         </div>
-                   </div>
+                        <div class="label">
+                            <form>
+                                <div class="form-group">
+                                    <label for="login">Специальность<span class=""></span></label>
+                                    <input type="text" id="username" class="form-control" type="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="login">Аттестационный бал<span class=""></span></label>
+                                    <input type="text" id="usersurname" class="form-control" type="">
+                                </div>
+                                <div class="btn-modal">
+                                    <button class="btn-complaint">Отправить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>

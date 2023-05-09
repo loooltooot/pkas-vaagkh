@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/psychologist.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Страница психолога</title>
 </head>
 

@@ -12,6 +12,7 @@ include("src/php/utils/conn.php");
     <link rel="stylesheet" href="../src/styles/normalize.css">
     <link rel="stylesheet" href="../src/styles/global.css">
     <link rel="stylesheet" href="../src/styles/skelet-for-news.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Новости</title>
 </head>
 
@@ -39,19 +40,19 @@ include("src/php/utils/conn.php");
                     <div class="white-board">
                         <img src="../../static/img/skelet-for-news/whiteboardpng.png" alt="">
                     </div>
-                    </div>
-                    <div class="main-text">
-                        <p>
-                            тут текст (26 апреля студенты групп 22ОСТ15 и 22ОСТ16 специальности “Сварочное производство” посетили завод Пензтяжпромарматура, на котором им провели экскурсию по разным цехам от производства заготовок до покраски готовой продукции. )
-                        </p>
-                        <p>
-                            тут текст (Студентам было интересно узнать о своем направлении, видах сварки на производстве, прохождении практики и дальнейшей работе на предприятии.)
-                        </p>
-                    </div>
-                    <div class="main-pic">
-                        <img src="../../static/img/skelet-for-news/pkas.png" alt="">
-                    </div>
                 </div>
+                <div class="main-text">
+                    <p>
+                        тут текст (26 апреля студенты групп 22ОСТ15 и 22ОСТ16 специальности “Сварочное производство” посетили завод Пензтяжпромарматура, на котором им провели экскурсию по разным цехам от производства заготовок до покраски готовой продукции. )
+                    </p>
+                    <p>
+                        тут текст (Студентам было интересно узнать о своем направлении, видах сварки на производстве, прохождении практики и дальнейшей работе на предприятии.)
+                    </p>
+                </div>
+                <div class="main-pic">
+                    <img src="../../static/img/skelet-for-news/pkas.png" alt="">
+                </div>
+            </div>
             </div>
         </section>
     </main>

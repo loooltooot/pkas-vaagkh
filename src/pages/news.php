@@ -12,6 +12,7 @@ include("src/php/utils/conn.php");
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/news.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Новости</title>
 </head>
 

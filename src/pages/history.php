@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/history.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Наша история</title>
 </head>
 
