@@ -61,7 +61,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="">Файл<span class=""></span></label>
-                                    <input type="file" id="file" class="form-control">
+                                    <input multiple type="file" id="file" class="form-control">
                                 </div>
 
                             </div>

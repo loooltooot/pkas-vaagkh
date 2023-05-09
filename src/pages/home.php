@@ -104,7 +104,7 @@ include("src/php/utils/conn.php");
                 </div>
             </div>
             <div class="btn-tel">
-                <a href="#">
+                <a href="tel:89648686527">
                     <p>Звоните прямо сейчас</p>
                 </a>
             </div>
