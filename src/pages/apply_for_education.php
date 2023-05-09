@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/workshops.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="src/styles/apply_for_education.css">
     <title>Подать заявление</title>
