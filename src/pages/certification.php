@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/workshops.css">
-    <title>Подать заявление</title>
+    <link rel="stylesheet" href="src/styles/certification.css">
+    <title>Аттестация педагогических работников</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
             </div>
             <div class="heading">
                 <h2>
-                    ПОДАТЬ ЗАЯВЛЕНИЕ
+                    АТТЕСТАЦИЯ ПЕДАГОГИЧЕСКИХ РАБОТНИКОВ
                 </h2>
             </div>
         </div>
@@ -33,58 +33,39 @@
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
-                   <div class="information">
-                        <div class="title">
+                   <div class="text">
+                    <p>
+                        Аттестация педагогических работников проводится:
+                            в целях подтверждения соответствия педагогических работников занимаемым ими должностям на основе оценки их профессиональной деятельности
+                            по желанию педагогических работников (за исключением педагогических работников из числа профессорско-преподавательского состава) в целях установления квалификационной категории (первой или высшей)
+                    </p>
+                    <p>
+                        Приказ Министерства образования и науки РФ от 7 апреля 2014 г. N 276 <a href="https://pkas58.ru/upload/docs/1801/Приказ Министерства образования и науки РФ от 7 апреля 2014.pdf">"Об утверждении Порядка проведения аттестации педагогических работников организаций, осуществляющих образовательную деятельность"</a>  определяет правила, основные задачи и принципы проведения аттестации педагогических работников колледжа. Педагогические должности поименованы в подразделе 2 раздела I номенклатуры должностей педагогических работников и руководителей организаций, осуществляющих образовательную деятельность, утвержденной <a href="https://pkas58.ru/upload/docs/1801/Постановление Правительства РФ от 8 августа 2013 г. N 678.pdf">постановлением Правительства Российской Федерации от 8 августа 2013 г. N 678.</a>  Согласно части 3 статьи 49 Федеральный закон от 29 декабря 2012 г. 273-ФЗ "Об образовании в Российской Федерации", а также пунктам 24, 25 Приказа N 276 аттестация педагогических работников в целях установления квалификационной категории проводится по их желанию. По результатам аттестации педагогическим работникам устанавливается первая или высшая квалификационная категория сроком на 5 лет. Аттестация работников в целях установления квалификационной категории осуществляется аттестационной комиссией, формируемой Министерством образования Пензенской области.
+                    </p>
+                   </div>
+                   <div class="arrow1-area">
+                        <div class="arrow1-name">
                             <p>
-                                Ваши данные для связи
+                                ПРОЦЕДУРА ПРОХОЖДЕНИЯ АТТЕСТАЦИИ В ЦЕЛЯХ УСТАНОВЛЕНИЯ КВАЛИФИКАЦИОННОЙ КАТЕГОРИИ
                             </p>
-                        </div>
-                        <div class="label">
-                            <form>
-                                <div class="form-group">
-                                    <label for="login">Ваша Фамилия<span class=""></span></label>
-                                    <input type="text" id="username" class="form-control" type="">
-                                </div>
-                                <div class="form-group">
-                                    <label for="login">Ваше Имя<span class=""></span></label>
-                                    <input type="text" id="usersurname" class="form-control" type="">
-                                </div>
-                                <div class="form-group">
-                                    <label for="login">Ваше Отчетство<span class=""></span></label>
-                                    <input type="text" id="usersecondname" class="form-control" type="">
-                                </div>
-                                <div class="form-group">
-                                    <label for="login">Почта<span class=""></span></label>
-                                    <input type="text" id="email" class="form-control" type="email">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Файл<span class=""></span></label>
-                                    <input type="file" id="file" class="form-control">
-                                </div>
-                            </form>
+                            <div class="arrow1-pic">
+                                <img src="../../static/img/certification/arrow1.png" alt="">
+                            </div>
+                            <div class="arrow1-text">
+                            <p>
+                                Образец заявления и представления можно взять на сайте ГАОУ ДПО <a href="http://penzaobr.ru/Attestaciya_pedagogicheskih_kadrov">«Институт регионального развития Пензенской области»</a>  . Согласно части 8 статьи 48 и части 2 статьи 49 Федеральный закон от 29 декабря 2012 г. 273-ФЗ "Об образовании в Российской Федерации", а также пункта 5 Приказа N 276 педагогические работники обязаны проходить аттестацию на соответствие занимаемой должности один раз в пять лет на основе оценки их профессиональной деятельности Аттестационной комиссией ГАПОУ ПО «Пензенский колледж архитектуры и строительства».
+                            </p>
+                            </div>
                         </div>
                    </div>
-                   <div class="clarifications">
-                        <div class="title">
-                                    <p>
-                                        Обязательные уточнения
-                                    </p>
-                                </div>
-                                <div class="label">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="login">Специальность<span class=""></span></label>
-                                            <input type="text" id="username" class="form-control" type="">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="login">Аттестационный бал<span class=""></span></label>
-                                            <input type="text" id="usersurname" class="form-control" type="">
-                                        </div>
-                                        <div class="btn-modal">
-                                            <button class="btn-complaint">Отправить</button>
-                                        </div>
-                                    </form>
-                                </div>
+                   <div class="arrow2-area">
+                        <div class="arrow2-name">
+                            <p>
+                                ПРОЦЕДУРА ПРОХОЖДЕНИЯ АТТЕСТАЦИИ В ЦЕЛЯХ ПОДТВЕРЖДЕНИЯ СООТВЕТСТВИЯ ПЕДАГОГИЧЕСКИХ РАБОТНИКОВ ЗАНИМАЕМЫМ ИМИ ДОЛЖНОСТЯМ
+                            </p>
+                        </div>
+                        <div class="arrow2-pic">
+                            <img src="../../static/img/certification/arrow2.png" alt="">
                         </div>
                    </div>
                 </div>
@@ -182,13 +163,7 @@
             </form>
         </div>
     </div>
-    <!-- End Modal fidback-->
-
-    <!-- Start points -->
-    <div class="images">
-        <img src="../../static/img/line.png" alt="">
-    </div>
-    <!-- End points -->
+    <!-- End Modal feedback-->
 </body>
 
 </html>
