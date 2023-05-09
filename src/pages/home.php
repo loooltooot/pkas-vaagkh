@@ -123,7 +123,7 @@ include("src/php/utils/conn.php");
                         строительства</p>
                     <div class="news-list">
                         <?php
-                        $result = $conn->query("select * from news order by time limit 4");
+                        $result = $conn->query("select * from news order by time desc limit 4");
                         include("src/php/focuses/print_news.php");
                         print_news($result);
                         ?>

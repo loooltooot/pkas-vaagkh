@@ -28,7 +28,7 @@ include("src/php/utils/conn.php");
                 </h2>
                 <p>
                     Пензенского колледжа архитектуры и
-                        строительства
+                    строительства
                 </p>
             </div>
         </div>
@@ -42,7 +42,7 @@ include("src/php/utils/conn.php");
                 <div class="main-news">
                     <div class="news-list">
                         <?php
-                        $result = $conn->query("select * from news order by time limit 4");
+                        $result = $conn->query("select * from news order by time desc");
                         include("src/php/focuses/print_news.php");
                         print_news($result);
                         ?>
