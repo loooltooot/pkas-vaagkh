@@ -37,46 +37,8 @@ include("src/php/utils/conn.php");
             <div class="wrapper">
                 <div class="main-content">
                     <div class="white-board">
-                        <div class="first-part">
-                            <div class="left-part">
-                                <p>
-                                    тут дата (27 Апреля 2023)
-                                </p>
-                                <p>
-                                    тут хештэг (#ВсеВажны)
-                                </p>
-                            </div>
-                            <div class="right-part">
-                                <p>
-                                    тут авторы? (Виктория Викториевна)
-                                </p>
-                                <p>
-                                    тут авторы? (Татьяна Борисовна)
-                                </p>
-                                <p>
-                                    тут группа(20ОА19)
-                                </p>
-                            </div>
-                            <div class="bottom-part">
-                                <div class="pic">
-                                    <img src="../../static/img/skelet-for-news/пкас.png" alt="">
-                                </div>
-                                <div class="pkas">
-                                    <p>
-                                        министерство образования пензенской области государственное автономное профессиональное образовательное учреждение пензенской области
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="second-part">
-                            <p>
-                                ТУТ ТЕКСТ (ПОСЕТИЛИ ЗАВОД)
-                            </p>
-                            <img src="../../static/img/skelet-for-news/test.png" alt="">
-                            <p>
-                                ПКАС
-                            </p>
-                        </div>
+                        <img src="../../static/img/skelet-for-news/whiteboardpng.png" alt="">
+                    </div>
                     </div>
                     <div class="main-text">
                         <p>
