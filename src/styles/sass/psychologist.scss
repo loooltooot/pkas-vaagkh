@@ -1,0 +1,133 @@
+html body .wrapper {
+  width: 66.2vw;
+}
+body {
+  overflow-x: clip;
+  header {
+    .heading {
+      display: flex;
+      margin-top: 5.21vw;
+      h2 {
+        display: flex;
+        height: 5.21vw;
+        width: 57.29vw;
+        font-size: var(--fonth1);
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+  .main-content {
+    .test-area {
+      .test-pic {
+        margin-top: 2.08vw;
+        img {
+          width: 66.2vw;
+          height: 38.49vw;
+        }
+      }
+      .ktoti {
+        p {
+          font-size: var(--fonth2);
+        }
+        &:nth-child(2) {
+          margin-bottom: 2.6vw;
+        }
+      }
+      .test {
+        display: flex;
+        .trava-pic {
+          img {
+            width: 20.1vw;
+            height: 12.55vw;
+          }
+        }
+        .test-text {
+          margin-left: 1.56vw;
+          p {
+            margin-bottom: 1.04vw;
+          }
+          .btn-modal {
+            .btn-complaint {
+              margin-top: 2.6vw;
+              color: var(--text-color);
+              font-size: var(--main-text);
+              border: 2px white solid;
+              cursor: pointer;
+              width: 18.14vw;
+              height: 3.65vw;
+              background: none;
+              transition: 0.2s ease;
+
+              &:hover {
+                color: var(--background-color);
+                background-color: antiquewhite;
+              }
+            }
+          }
+        }
+      }
+    }
+    .question-area {
+      .question-name {
+        p {
+          margin-top: 5.65vw;
+          display: flex;
+          height: 3.81vw;
+          width: 49.29vw;
+          font-size: var(--fonth1);
+          border-bottom: 1px solid white;
+        }
+      }
+      .question-main {
+        .label {
+          margin-top: 2.6vw;
+          display: flex;
+          justify-content: center;
+          .btn-modal {
+            .btn-complaint {
+              color: var(--text-color);
+              font-size: var(--main-text);
+              border: 2px white solid;
+              cursor: pointer;
+              width: 18.14vw;
+              height: 3.65vw;
+              background: none;
+              transition: 0.2s ease;
+
+              &:hover {
+                color: var(--background-color);
+                background-color: antiquewhite;
+              }
+            }
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            .form-group {
+              width: 32.86vw;
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 1.56vw;
+              label {
+                margin-bottom: 0.52vw;
+              }
+              input {
+                height: 2.28vw;
+              }
+              textarea {
+                resize: none;
+                height: 10.81vw;
+                border: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .wrapper {
+      width: 78.13vw;
+    }
+  }
+}

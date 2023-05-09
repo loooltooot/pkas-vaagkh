@@ -72,15 +72,15 @@
                             <div class="label">
                                 <form>
                                     <div class="form-group">
-                                        <label for="login">Ваша Фамилия<span class=""></span></label>
+                                        <label for="login">Ваша фамилия<span class=""></span></label>
                                         <input type="text" id="username" class="form-control" type="">
                                     </div>
                                     <div class="form-group">
-                                        <label for="login">Ваше Имя<span class=""></span></label>
+                                        <label for="login">Ваше имя<span class=""></span></label>
                                         <input type="text" id="usersurname" class="form-control" type="">
                                     </div>
                                     <div class="form-group">
-                                        <label for="login">Ваше Отчетство<span class=""></span></label>
+                                        <label for="login">Ваше отчетство<span class=""></span></label>
                                         <input type="text" id="usersecondname" class="form-control" type="">
                                     </div>
                                     <div class="form-group">
