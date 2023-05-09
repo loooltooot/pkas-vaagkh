@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="src/styles/workshops.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+=======
+    <link rel="stylesheet" href="src/styles/apply_for_education.css">
+>>>>>>> Stashed changes
     <title>Подать заявление</title>
 </head>
 
@@ -34,6 +38,7 @@
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
+<<<<<<< Updated upstream
                     <div class="information">
                         <div class="title">
                             <p>
@@ -42,6 +47,17 @@
                         </div>
                         <div class="label">
                             <form>
+=======
+                    <form>
+                        <div class="information">
+                            <div class="title">
+                                <p>
+                                    Ваши данные для связи
+                                </p>
+                            </div>
+                            <div class="label">
+
+>>>>>>> Stashed changes
                                 <div class="form-group">
                                     <label for="login">Ваша Фамилия<span class=""></span></label>
                                     <input type="text" id="username" class="form-control" type="">
@@ -62,8 +78,10 @@
                                     <label for="">Файл<span class=""></span></label>
                                     <input type="file" id="file" class="form-control">
                                 </div>
-                            </form>
+
+                            </div>
                         </div>
+<<<<<<< Updated upstream
                     </div>
                     <div class="clarifications">
                         <div class="title">
@@ -87,7 +105,33 @@
                             </form>
                         </div>
                     </div>
+=======
+                        <div class="clarifications">
+                            <div class="title">
+                                <p>
+                                    Обязательные уточнения
+                                </p>
+                            </div>
+                            <div class="label">
+
+                                <div class="form-group">
+                                    <label for="login">Специальность<span class=""></span></label>
+                                    <input type="text" id="username" class="form-control" type="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="login">Аттестационный бал<span class=""></span></label>
+                                    <input type="text" id="usersurname" class="form-control" type="">
+                                </div>
+                                <div class="btn-modal">
+                                    <button class="btn-complaint">Отправить</button>
+                                </div>
+
+                            </div>
+                        </div>
+>>>>>>> Stashed changes
                 </div>
+                </form>
+            </div>
             </div>
             </div>
         </section>

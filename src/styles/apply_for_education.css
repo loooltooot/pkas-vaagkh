@@ -1,0 +1,99 @@
+header .heading {
+  height: 5.51vw;
+  margin-top: 5.21vw;
+}
+header .heading h2 {
+  width: 61.04vw;
+  height: 6.21vw;
+  font-size: var(--fonth1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form .information .title p {
+  width: 57.94vw;
+  height: 2.21vw;
+  font-size: var(--fonth2);
+  border-bottom: 1px solid white;
+}
+form .label {
+  margin-top: 2.08vw;
+  width: 58.02vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+form .label .form-group {
+  width: 32.86vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.56vw;
+}
+form .label .form-group input[type=file]::file-selector-button {
+  height: 2.28vw;
+  margin-right: 1.04vw;
+  border: none;
+  background: var(--primary-color);
+  padding: 0.52vw 1.04vw;
+  border-radius: 0.52vw;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+form .label .form-group input[type=file]::file-selector-button:hover {
+  background: #ab3910;
+}
+form .label .form-group label {
+  margin-bottom: 0.52vw;
+}
+form .label .form-group input {
+  height: 2.28vw;
+}
+form .label .form-group textarea {
+  resize: none;
+  height: 10.81vw;
+  border: 0px;
+}
+form .clarifications .title p {
+  width: 57.94vw;
+  height: 2.21vw;
+  font-size: var(--fonth2);
+  border-bottom: 1px solid white;
+}
+form .clarifications .label {
+  margin-top: 2.08vw;
+}
+form .clarifications .label .btn-modal {
+  display: flex;
+  width: 32.86vw;
+  justify-content: flex-end;
+}
+form .clarifications .label .btn-modal .btn-complaint {
+  color: var(--text-color);
+  font-size: var(--main-text);
+  border: 0.11vw white solid;
+  cursor: pointer;
+  width: 18.14vw;
+  height: 3.65vw;
+  background: none;
+  transition: 0.2s ease;
+}
+form .clarifications .label .btn-modal .btn-complaint:hover {
+  color: var(--background-color);
+  background-color: antiquewhite;
+}
+
+.images img {
+  z-index: -3;
+  position: absolute;
+  top: -5.42vw !important;
+  left: 90vw !important;
+  width: 10vw !important;
+  height: 100vw !important;
+  filter: blur(60px) !important;
+  animation: none !important;
+}
+
+/*# sourceMappingURL=apply_for_education.css.map */
