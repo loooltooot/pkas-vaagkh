@@ -24,6 +24,19 @@
   color: var(--background-color);
 }
 
+body::-webkit-scrollbar {
+  width: 0.42vw;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 0.42vw;
+}
+
 html body * {
   font-family: JejuMyeongjo, serif;
   font-weight: 400;
