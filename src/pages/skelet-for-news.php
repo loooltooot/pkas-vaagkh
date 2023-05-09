@@ -56,7 +56,9 @@ $query->close();
                     ?>
                 </div>
                 <div class="main-text">
-                    <?= $content ?>
+                    <p>
+                        <?= $content ?>
+                    </p>
                 </div>
                 <div class="main-pic">
                     <img src="../../static/img/skelet-for-news/pkas.png" alt="">
