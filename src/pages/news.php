@@ -1,3 +1,6 @@
+<?php
+include("src/php/utils/conn.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
