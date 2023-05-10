@@ -81,7 +81,7 @@
                                         <input type="text" id="usersurname" class="form-control" type="">
                                     </div>
                                     <div class="form-group">
-                                        <label for="login">Ваше отчетство<span class=""></span></label>
+                                        <label for="login">Ваше отчество<span class=""></span></label>
                                         <input type="text" id="usersecondname" class="form-control" type="">
                                     </div>
                                     <div class="form-group">

@@ -52,7 +52,7 @@
                                     <input type="text" id="usersurname" class="form-control" type="">
                                 </div>
                                 <div class="form-group">
-                                    <label for="login">Ваше Отчетство<span class=""></span></label>
+                                    <label for="login">Ваше Отчество<span class=""></span></label>
                                     <input type="text" id="usersecondname" class="form-control" type="">
                                 </div>
                                 <div class="form-group">
@@ -76,7 +76,9 @@
 
                                 <div class="form-group">
                                     <label for="login">Специальность<span class=""></span></label>
-                                    <input type="text" id="username" class="form-control" type="">
+                                    <select id="username" class="form-control">
+                                        <option value="0" disabled selected>Выберите специальность</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="login">Аттестационный бал<span class=""></span></label>
