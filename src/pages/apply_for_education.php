@@ -77,7 +77,11 @@
                                 <div class="form-group">
                                     <label for="login">Специальность<span class=""></span></label>
                                     <select id="username" class="form-control">
-                                        <option value="0" disabled selected>Выберите специальность</option>
+                                    <option value="0" disabled selected>Выберите специальность</option>
+                                    <option value="0"  selected>Выберите специальность</option>
+                                    <option value="0"  selected>Выберите специальность</option>
+    
+                                    <option value="0"  selected>Выберите специальность</option>
                                     </select>
                                 </div>
                                 <div class="form-group">

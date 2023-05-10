@@ -51,6 +51,11 @@ form .label .form-group label {
 form .label .form-group input {
   height: 2.28vw;
 }
+form .label .form-group select {
+  height: 2.28vw;
+  border: none;
+  outline: none;
+}
 form .label .form-group textarea {
   resize: none;
   height: 10.81vw;
