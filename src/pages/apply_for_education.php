@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/workshops.css">
-    <title>Мастерские</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/styles/apply_for_education.css">
+    <title>Подать заявление</title>
 </head>
 
 <body>
@@ -33,14 +34,15 @@
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
-                   <div class="information">
-                        <div class="title">
-                            <p>
-                                Ваши данные для связи
-                            </p>
-                        </div>
-                        <div class="label">
-                            <form>
+                    <form>
+                        <div class="information">
+                            <div class="title">
+                                <p>
+                                    Ваши данные для связи
+                                </p>
+                            </div>
+                            <div class="label">
+
                                 <div class="form-group">
                                     <label for="login">Ваша Фамилия<span class=""></span></label>
                                     <input type="text" id="username" class="form-control" type="">
@@ -50,7 +52,7 @@
                                     <input type="text" id="usersurname" class="form-control" type="">
                                 </div>
                                 <div class="form-group">
-                                    <label for="login">Ваше Отчетство<span class=""></span></label>
+                                    <label for="login">Ваше Отчество<span class=""></span></label>
                                     <input type="text" id="usersecondname" class="form-control" type="">
                                 </div>
                                 <div class="form-group">
@@ -59,35 +61,43 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="">Файл<span class=""></span></label>
-                                    <input type="file" id="file" class="form-control">
+                                    <input multiple type="file" id="file" class="form-control">
                                 </div>
-                            </form>
+
+                            </div>
                         </div>
-                   </div>
-                   <div class="clarifications">
-                        <div class="title">
-                                    <p>
-                                        Обязательные уточнения
-                                    </p>
+                        <div class="clarifications">
+                            <div class="title">
+                                <p>
+                                    Обязательные уточнения
+                                </p>
+                            </div>
+                            <div class="label">
+
+                                <div class="form-group">
+                                    <label for="login">Специальность<span class=""></span></label>
+                                    <select id="username" class="form-control">
+                                    <option value="0" disabled selected>Выберите специальность</option>
+                                    <option value="0"  selected>Выберите специальность</option>
+                                    <option value="0"  selected>Выберите специальность</option>
+    
+                                    <option value="0"  selected>Выберите специальность</option>
+                                    </select>
                                 </div>
-                                <div class="label">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="login">Специальность<span class=""></span></label>
-                                            <input type="text" id="username" class="form-control" type="">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="login">Аттестационный бал<span class=""></span></label>
-                                            <input type="text" id="usersurname" class="form-control" type="">
-                                        </div>
-                                        <div class="btn-modal">
-                                            <button class="btn-complaint">Отправить</button>
-                                        </div>
-                                    </form>
+                                <div class="form-group">
+                                    <label for="login">Аттестационный бал<span class=""></span></label>
+                                    <input type="text" id="usersurname" class="form-control" type="">
                                 </div>
+                                <div class="btn-modal">
+                                    <button class="btn-complaint">Отправить</button>
+                                </div>
+
+                            </div>
                         </div>
-                   </div>
                 </div>
+                </form>
+            </div>
+            </div>
             </div>
         </section>
     </main>

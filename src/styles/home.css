@@ -77,6 +77,9 @@ body .btn-tel a p {
   width: 3.65vw;
   line-height: 1.56vw;
 }
+body .btn-tel a:hover {
+  transform: scale(1.05);
+}
 body .main-news .whole-news-wrapper {
   border-bottom: 1px solid #ffffff;
   flex-grow: 1;

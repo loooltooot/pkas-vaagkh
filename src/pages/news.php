@@ -1,3 +1,6 @@
+<?php
+include("src/php/utils/conn.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,9 +11,9 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/dormitory.css">
+    <link rel="stylesheet" href="src/styles/news.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Общежитие</title>
+    <title>Новости</title>
 </head>
 
 <body>
@@ -22,43 +25,34 @@
             </div>
             <div class="heading">
                 <h2>
-                    ОБЩЕЖИТИЕ
+                    ГЛАВНЫЕ НОВОСТИ
                 </h2>
+                <p>
+                    Пензенского колледжа архитектуры и
+                    строительства
+                </p>
             </div>
         </div>
     </header>
     <!-- End header -->
 
-    <!-- Start main-content -->
+    <!-- Start main news -->
     <main>
-        <section class="main-content-area">
+        <div class="main-news-area">
             <div class="wrapper">
-                <div class="main-content">
-                    <p>
-                        Колледж располагает двумя благоустроенными общежитиями на 590 мест(по адресу ул.набережная р.Пенза 3а, ул.Собинова 7). Все иногородние студенты, нуждающиеся в жилье, обеспечиваются местами.
-                    </p>
-                    <p>
-                        Комнаты общежития по ул.Набережная р.Пенза расположены по секциям и рассчитаны на проживание 2-х и 3-х человек, в общежитии по Собинова коридорного типа – все комнаты трехместные.
-                    </p>
-                    <p>
-                        В общежитиях созданы социально–бытовые условия для проживания и организации досуга. Помещения содержатся в соответствии с установленными санитарными правилами и нормами.
-                    </p>
-                    <p>
-                        Общежития укомплектованы мебелью, бытовым оборудованием, постельными принадлежностями и другим инвентарем. Имеются газифицированные кухни и кухни с электроплитами, душевые комнаты, комнаты для занятий, комнаты отдыха(музыкальная, художественная гостиные, комнаты для игры в настольный теннис), тренажерные залы, физкультурно-оздоровительный центр «Триумф». На 1 этаже общежития по ул.Набережная р. Пенза работают столовая и буфет. Правила проживания в общежитии. Студенческий совет общежития План мероприятий
-                    </p>
-                </div>
-                <div class="main-img">
-                    <div class="main-img1">
-                        <img src="../../static/img/dormitory/dormitory1.png" alt="">
-                    </div>
-                    <div class="main-img2">
-                        <img src="../../static/img/dormitory/dormitory2.png" alt="">
+                <div class="main-news">
+                    <div class="news-list">
+                        <?php
+                        $result = $conn->query("select * from news order by time desc");
+                        include("src/php/focuses/print_news.php");
+                        print_news($result);
+                        ?>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
-    <!-- End main-content -->
+    <!-- End main news -->
     <div class="spacer"></div>
     <!-- Start footer -->
     <footer>
@@ -149,13 +143,7 @@
             </form>
         </div>
     </div>
-    <!-- End Modal fidback-->
-
-    <!-- Start points -->
-    <div class="images">
-        <img src="../../static/img/point.png" alt="">
-    </div>
-    <!-- End points -->
+    <!-- End Modal feedback-->
 </body>
 
 </html>

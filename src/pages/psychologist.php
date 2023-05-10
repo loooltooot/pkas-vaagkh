@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/dormitory.css">
+    <link rel="stylesheet" href="src/styles/psychologist.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Общежитие</title>
+    <title>Страница психолога</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
             </div>
             <div class="heading">
                 <h2>
-                    ОБЩЕЖИТИЕ
+                    СТРАНИЦА ПСИХОЛОГА
                 </h2>
             </div>
         </div>
@@ -34,25 +34,74 @@
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
-                    <p>
-                        Колледж располагает двумя благоустроенными общежитиями на 590 мест(по адресу ул.набережная р.Пенза 3а, ул.Собинова 7). Все иногородние студенты, нуждающиеся в жилье, обеспечиваются местами.
-                    </p>
-                    <p>
-                        Комнаты общежития по ул.Набережная р.Пенза расположены по секциям и рассчитаны на проживание 2-х и 3-х человек, в общежитии по Собинова коридорного типа – все комнаты трехместные.
-                    </p>
-                    <p>
-                        В общежитиях созданы социально–бытовые условия для проживания и организации досуга. Помещения содержатся в соответствии с установленными санитарными правилами и нормами.
-                    </p>
-                    <p>
-                        Общежития укомплектованы мебелью, бытовым оборудованием, постельными принадлежностями и другим инвентарем. Имеются газифицированные кухни и кухни с электроплитами, душевые комнаты, комнаты для занятий, комнаты отдыха(музыкальная, художественная гостиные, комнаты для игры в настольный теннис), тренажерные залы, физкультурно-оздоровительный центр «Триумф». На 1 этаже общежития по ул.Набережная р. Пенза работают столовая и буфет. Правила проживания в общежитии. Студенческий совет общежития План мероприятий
-                    </p>
-                </div>
-                <div class="main-img">
-                    <div class="main-img1">
-                        <img src="../../static/img/dormitory/dormitory1.png" alt="">
+                    <div class="test-area">
+                        <div class="test-pic">
+                            <img src="../../static/img/psychologist/grave&circle.png" alt="">
+                        </div>
+                        <div class="ktoti">
+                            <p>
+                                кто ты
+                            </p>
+                            <p>
+                                - в этой траве?
+                            </p>
+                        </div>
+                        <div class="test">
+                            <div class="trava-pic">
+                                <img src="../../static/img/psychologist/trava.png" alt="">
+                            </div>
+                            <div class="test-text">
+                                <p>
+                                    пройди тест: “кто ты - в этой траве?” и узнай свою социальную роль в жизни колледжа!
+                                </p>
+                                <p>
+                                    опрос полностью анонимный
+                                </p>
+                                <div class="btn-modal">
+                                    <button class="btn-complaint">Пройти тест</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="main-img2">
-                        <img src="../../static/img/dormitory/dormitory2.png" alt="">
+                    <div class="question-area">
+                        <div class="question-name">
+                            <p>
+                                ЗАДАЙ ВОПРОС ПСИХОЛОГУ
+                            </p>
+                        </div>
+                        <div class="question-main">
+                            <div class="label">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="login">Ваша фамилия<span class=""></span></label>
+                                        <input type="text" id="username" class="form-control" type="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="login">Ваше имя<span class=""></span></label>
+                                        <input type="text" id="usersurname" class="form-control" type="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="login">Ваше отчество<span class=""></span></label>
+                                        <input type="text" id="usersecondname" class="form-control" type="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="login">Почта<span class=""></span></label>
+                                        <input type="text" id="email" class="form-control" type="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="login">Тема<span class=""></span></label>
+                                        <input type="text" id="theme" class="form-control" type="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Текст<span class=""></span></label>
+                                        <textarea class="form-control" name="con_message"></textarea>
+                                    </div>
+                                    <div class="btn-modal">
+                                        <button class="btn-complaint">Отправить</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,13 +198,7 @@
             </form>
         </div>
     </div>
-    <!-- End Modal fidback-->
-
-    <!-- Start points -->
-    <div class="images">
-        <img src="../../static/img/point.png" alt="">
-    </div>
-    <!-- End points -->
+    <!-- End Modal feedback-->
 </body>
 
 </html>

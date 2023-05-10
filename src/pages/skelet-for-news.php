@@ -1,3 +1,14 @@
+<?php
+include("src/php/utils/conn.php");
+$id = $matches[1];
+
+$query = $conn->prepare("select * from news where id = ?");
+$query->bind_param('i', $id);
+$query->execute();
+$query->bind_result($id, $title, $content, $time, $files);
+$query->fetch();
+$query->close();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,12 +16,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles/reset.css">
-    <link rel="stylesheet" href="src/styles/normalize.css">
-    <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/dormitory.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Общежитие</title>
+    <link rel="stylesheet" href="../src/styles/reset.css">
+    <link rel="stylesheet" href="../src/styles/normalize.css">
+    <link rel="stylesheet" href="../src/styles/global.css">
+    <link rel="stylesheet" href="../src/styles/skelet-for-news.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Новости</title>
 </head>
 
 <body>
@@ -22,7 +33,7 @@
             </div>
             <div class="heading">
                 <h2>
-                    ОБЩЕЖИТИЕ
+                    <?= mb_strtoupper($title) ?>
                 </h2>
             </div>
         </div>
@@ -34,27 +45,25 @@
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
+                    <?php
+                    $imgs = explode("&", $files);
+
+                    foreach ($imgs as $img) {
+                    ?>
+                        <img src="../static/img/news/<?= $img ?>" alt="<?= $img ?>">
+                    <?php
+                    }
+                    ?>
+                </div>
+                <div class="main-text">
                     <p>
-                        Колледж располагает двумя благоустроенными общежитиями на 590 мест(по адресу ул.набережная р.Пенза 3а, ул.Собинова 7). Все иногородние студенты, нуждающиеся в жилье, обеспечиваются местами.
-                    </p>
-                    <p>
-                        Комнаты общежития по ул.Набережная р.Пенза расположены по секциям и рассчитаны на проживание 2-х и 3-х человек, в общежитии по Собинова коридорного типа – все комнаты трехместные.
-                    </p>
-                    <p>
-                        В общежитиях созданы социально–бытовые условия для проживания и организации досуга. Помещения содержатся в соответствии с установленными санитарными правилами и нормами.
-                    </p>
-                    <p>
-                        Общежития укомплектованы мебелью, бытовым оборудованием, постельными принадлежностями и другим инвентарем. Имеются газифицированные кухни и кухни с электроплитами, душевые комнаты, комнаты для занятий, комнаты отдыха(музыкальная, художественная гостиные, комнаты для игры в настольный теннис), тренажерные залы, физкультурно-оздоровительный центр «Триумф». На 1 этаже общежития по ул.Набережная р. Пенза работают столовая и буфет. Правила проживания в общежитии. Студенческий совет общежития План мероприятий
+                        <?= $content ?>
                     </p>
                 </div>
-                <div class="main-img">
-                    <div class="main-img1">
-                        <img src="../../static/img/dormitory/dormitory1.png" alt="">
-                    </div>
-                    <div class="main-img2">
-                        <img src="../../static/img/dormitory/dormitory2.png" alt="">
-                    </div>
+                <div class="main-pic">
+                    <img src="../../static/img/skelet-for-news/pkas.png" alt="">
                 </div>
+            </div>
             </div>
         </section>
     </main>
@@ -153,6 +162,7 @@
 
     <!-- Start points -->
     <div class="images">
+        <img src="../../static/img/point.png" alt="">
         <img src="../../static/img/point.png" alt="">
     </div>
     <!-- End points -->

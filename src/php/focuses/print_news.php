@@ -20,7 +20,7 @@ function print_news($result)
                     </div>
                     <div class="news-wrapper">
                         <p class="news-subtext"><?= mb_substr($row['content'], 0, 100) . "..." ?></p>
-                        <a href="/news?id=<?= $row['id'] ?>" class="btn-news">
+                        <a href="/news/<?= $row['id'] ?>" class="btn-news">
                             <img src="../static/img/news/arrow.png" alt="">
                             <p>читать</p>
                         </a>

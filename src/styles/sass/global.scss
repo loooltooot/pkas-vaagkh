@@ -10,7 +10,31 @@
   --fonth2: 1.67vw;
   --main-text: 1.25vw;
   --background-color: #191919;
+  --primary-color: #ea531d;
   --text-color: white;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+::-moz-selection {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+body::-webkit-scrollbar {
+  width: 0.42vw;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 0.42vw;
 }
 
 html body * {
@@ -25,6 +49,9 @@ a {
   transition: 0.25s ease;
 }
 
+html body input:focus {
+  outline: var(--primary-color) 0.055vw solid;
+}
 body {
   overflow-x: clip;
   background-color: var(--background-color);
@@ -148,7 +175,7 @@ body {
     position: fixed;
     top: 50px;
     left: 570px;
-    background: #ea531d;
+    background: var(--primary-color);
     width: 33.85vw;
     height: 39.71vw;
     padding: 3.13vw;

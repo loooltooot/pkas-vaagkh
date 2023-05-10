@@ -12,6 +12,7 @@ include("src/php/utils/conn.php");
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Колледж архитектуры и строительства</title>
 </head>
 
@@ -103,7 +104,7 @@ include("src/php/utils/conn.php");
                 </div>
             </div>
             <div class="btn-tel">
-                <a href="#">
+                <a href="tel:89648686527">
                     <p>Звоните прямо сейчас</p>
                 </a>
             </div>
@@ -123,7 +124,7 @@ include("src/php/utils/conn.php");
                         строительства</p>
                     <div class="news-list">
                         <?php
-                        $result = $conn->query("select * from news order by time limit 4");
+                        $result = $conn->query("select * from news order by time desc limit 4");
                         include("src/php/focuses/print_news.php");
                         print_news($result);
                         ?>
