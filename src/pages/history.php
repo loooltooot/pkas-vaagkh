@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/history.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
     <title>Наша история</title>
 </head>
+
+<a href="#" class="bvi-open">Версия сайта для слабовидящих</a>
 
 <body>
     <!-- Start header -->
@@ -223,6 +226,10 @@
         </div>
     </div>
     <!-- End Modal fidback-->
+    <script src="src/js/bvi/js/bvi.min.js"></script>
+    <script>
+        new isvek.Bvi()
+    </script>
 </body>
 
 </html>

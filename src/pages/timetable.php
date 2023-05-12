@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/timetable.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
     <title>Расписание занятий</title>
 </head>
+
+<a href="#" class="bvi-open">Версия сайта для слабовидящих</a>
 
 <body>
     <!-- Start header -->
@@ -144,6 +147,10 @@
         <img src="../../static/img/point.png" alt="">
     </div>
     <!-- End points -->
+    <script src="src/js/bvi/js/bvi.min.js"></script>
+    <script>
+        new isvek.Bvi()
+    </script>
 </body>
 
 </html>

@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="src/styles/apply_for_education.css">
+    <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
     <title>Подать заявление</title>
 </head>
+
+<a href="#" class="bvi-open">Версия сайта для слабовидящих</a>
 
 <body>
     <!-- Start header -->
@@ -77,11 +80,11 @@
                                 <div class="form-group">
                                     <label for="login">Специальность<span class=""></span></label>
                                     <select id="username" class="form-control">
-                                    <option value="0" disabled selected>Выберите специальность</option>
-                                    <option value="0"  selected>Выберите специальность</option>
-                                    <option value="0"  selected>Выберите специальность</option>
-    
-                                    <option value="0"  selected>Выберите специальность</option>
+                                        <option value="0" disabled selected>Выберите специальность</option>
+                                        <option value="0" selected>Выберите специальность</option>
+                                        <option value="0" selected>Выберите специальность</option>
+
+                                        <option value="0" selected>Выберите специальность</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -199,6 +202,10 @@
         <img src="../../static/img/line.png" alt="">
     </div>
     <!-- End points -->
+    <script src="src/js/bvi/js/bvi.min.js"></script>
+    <script>
+        new isvek.Bvi()
+    </script>
 </body>
 
 </html>

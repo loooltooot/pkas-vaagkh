@@ -13,8 +13,11 @@ include("src/php/utils/conn.php");
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/home.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
     <title>Колледж архитектуры и строительства</title>
 </head>
+
+<a href="#" class="bvi-open">Версия сайта для слабовидящих</a>
 
 <body>
     <!-- Start header -->
@@ -226,6 +229,10 @@ include("src/php/utils/conn.php");
         </div>
     </div>
     <!-- End Modal fidback-->
+    <script src="src/js/bvi/js/bvi.min.js"></script>
+    <script>
+        new isvek.Bvi()
+    </script>
 </body>
 
 </html>
