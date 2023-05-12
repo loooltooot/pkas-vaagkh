@@ -126,6 +126,7 @@ body {
     margin-top: 20vw;
     background-image: url(../../../static/img/home/footer-back.png);
     background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .footer {
@@ -389,4 +390,35 @@ body {
 
 .spacer {
   flex-grow: 1;
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --fonth1: 5.8vw;
+    --fonth2: 4.4vw;
+    --main-text: 4.8vw;
+    --background-color: #191919;
+    --primary-color: #ea531d;
+    --text-color: white;
+  }
+  html body .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+  html body footer .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-size: 100% 120vw;
+  }
+  html body footer {
+    background-size: 100% 220vw;
+  }
+  html body .footer {
+    flex-direction: column;
+    div {
+      padding: 0 4vw;
+      width: 95%;
+      margin-bottom: 10vw;
+    }
+  }
 }

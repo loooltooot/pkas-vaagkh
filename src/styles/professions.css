@@ -17,7 +17,7 @@ body header .heading h2 {
 }
 body header .heading-text {
   font-size: var(--main-text);
-  width: 31.25vw;
+  width: 100%;
   text-align: justify;
 }
 
@@ -135,6 +135,42 @@ body header .heading-text {
   border: 1px solid white;
   border-left: 0;
   padding: 1.56vw 2.6vw;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .grid-duration {
+    border: 1px solid white;
+  }
+  .container .grid-entrance {
+    border: 1px solid white;
+  }
+  .container .grid-name {
+    border: 1px solid white;
+  }
+  .container .grid-name-duration {
+    border: 1px solid white;
+  }
+  .container .grid-name-entrance {
+    border: 1px solid white;
+  }
+  .container .grid-pic {
+    border: 1px solid white;
+  }
+  .container .grid-pic img {
+    width: 117.8vw !important;
+    height: 131.2vw !important;
+  }
+  .container .grid-pic2 img {
+    width: 114vw !important;
+    height: 72.8vw !important;
+  }
+  .container .grid-text {
+    border: 1px solid white;
+  }
 }
 
 /*# sourceMappingURL=professions.css.map */

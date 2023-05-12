@@ -44,6 +44,19 @@
         <section class="grid-content-area">
             <div class="wrapper">
                 <div class="container">
+                <div class="grid-name">
+                        <p>
+                            07.02.01 Архитектура
+                        </p>
+                    </div>
+                    <div class="grid-pic">
+                        <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/architecture.png" alt="">
+                    </div>
+                    <div class="grid-name-duration">
+                        <p>
+                            Срок обучения
+                        </p>
+                    </div>
                     <div class="grid-duration">
                         <p>
                             на базе 9 классов
@@ -57,27 +70,14 @@
                             4 года 10 месяцев
                         </p>
                     </div>
-                    <div class="grid-entrance">
-                        <p>
-                            Для поступления нужно пройти творческое испытание по рисунку, также в расчет принимается средний балл аттестата. С примерами работ творческого испытания можно ознакомиться в разделе «Абитуриенту».
-                        </p>
-                    </div>
-                    <div class="grid-pic">
-                        <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/architecture.png" alt="">
-                    </div>
-                    <div class="grid-name-duration">
-                        <p>
-                            Срок обучения
-                        </p>
-                    </div>
                     <div class="grid-name-entrance">
                         <p>
                             Поступление
                         </p>
                     </div>
-                    <div class="grid-name">
+                    <div class="grid-entrance">
                         <p>
-                            07.02.01 Архитектура
+                            Для поступления нужно пройти творческое испытание по рисунку, также в расчет принимается средний балл аттестата. С примерами работ творческого испытания можно ознакомиться в разделе «Абитуриенту».
                         </p>
                     </div>
                     <div class="grid-text">
@@ -93,6 +93,20 @@
                     </div>
                 </div>
                 <div class="container container1">
+                <div class="grid-name">
+                        <p>
+                            08.02.01 Строительство и эксплуатация зданий
+                            и сооружений
+                        </p>
+                    </div>
+                <div class="grid-pic">
+                        <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/construction.png" alt="">
+                    </div>
+                    <div class="grid-name-duration">
+                        <p>
+                            Срок обучения
+                        </p>
+                    </div>
                     <div class="grid-duration">
                         <div class="duration-1">
                             <p>
@@ -116,30 +130,19 @@
                             </p>
                         </div>
                     </div>
-                    <div class="grid-entrance">
-                        <p>
-                            Осуществляться на общедоступной основе, без сдачи вступительных испытаний, по предоставлению в приемную комиссию пакета необходимых документов. Обучение осуществляется на бесплатной основе, за счет средств бюджета.
-                        </p>
-                    </div>
-                    <div class="grid-pic">
-                        <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/construction.png" alt="">
-                    </div>
-                    <div class="grid-name-duration">
-                        <p>
-                            Срок обучения
-                        </p>
-                    </div>
                     <div class="grid-name-entrance">
                         <p>
                             Поступление
                         </p>
                     </div>
-                    <div class="grid-name">
+                    <div class="grid-entrance">
                         <p>
-                            08.02.01 Строительство и эксплуатация зданий
-                            и сооружений
+                            Осуществляться на общедоступной основе, без сдачи вступительных испытаний, по предоставлению в приемную комиссию пакета необходимых документов. Обучение осуществляется на бесплатной основе, за счет средств бюджета.
                         </p>
                     </div>
+
+
+
                     <div class="grid-text">
                         <p>
                             Наш выпускник обладает профессиональными компетенциями, соответствующими основным видам профессиональной деятельности и может:
@@ -156,6 +159,22 @@
                     </div>
                 </div>
                 <div class="container container2">
+                <div class="grid-name">
+                        <p>
+                            09.02.07 Информационные
+                            системы и
+                            программирование
+                        </p>
+                    </div>
+                <div class="grid-pic grid-pic2">
+                        <img style="min-width:30.68vw; height:19.58vw" src="../../static/img/professions/programmers1.png" alt="">
+                        <img style="min-width:30.68vw; height:14.79vw" src="../../static/img/professions/programmers2.png" alt="">
+                    </div>
+                    <div class="grid-name-duration">
+                        <p>
+                            Срок обучения
+                        </p>
+                    </div>
                     <div class="grid-duration">
                         <p>
                             на базе 9 классов
@@ -169,32 +188,20 @@
                             4 года 10 месяцев
                         </p>
                     </div>
-                    <div class="grid-entrance">
-                        <p>
-                            Для поступления нужно пройти творческое испытание по рисунку, также в расчет принимается средний балл аттестата. С примерами работ творческого испытания можно ознакомиться в разделе «Абитуриенту».
-                        </p>
-                    </div>
-                    <div class="grid-pic">
-                        <img style="min-width:30.68vw; height:19.58vw" src="../../static/img/professions/programmers1.png" alt="">
-                        <img style="min-width:30.68vw; height:14.79vw" src="../../static/img/professions/programmers2.png" alt="">
-                    </div>
-                    <div class="grid-name-duration">
-                        <p>
-                            Срок обучения
-                        </p>
-                    </div>
                     <div class="grid-name-entrance">
                         <p>
                             Поступление
                         </p>
                     </div>
-                    <div class="grid-name">
+                    <div class="grid-entrance">
                         <p>
-                            09.02.07 Информационные
-                            системы и
-                            программирование
+                            Для поступления нужно пройти творческое испытание по рисунку, также в расчет принимается средний балл аттестата. С примерами работ творческого испытания можно ознакомиться в разделе «Абитуриенту».
                         </p>
                     </div>
+
+
+
+
                     <div class="grid-text">
                         <p>
                             Разработчики Web и мультимедийных приложений сочетают в своей работе дизайнерские и технические знания.
@@ -207,6 +214,21 @@
                     </div>
                 </div>
                 <div class="container">
+                <div class="grid-name">
+                        <p>
+                            54.01.20 Графический
+                            дизайнер
+                        </p>
+                    </div>
+                    <div class="grid-pic grid-pic2">
+                        <img style="min-width:30.68vw; height:15.63vw" src="../../static/img/professions/designers1.png" alt="">
+                        <img style="min-width:30.68vw; height:18.07vw" src="../../static/img/professions/designers2.png" alt="">
+                    </div>
+                    <div class="grid-name-duration">
+                        <p>
+                            Срок обучения
+                        </p>
+                    </div>
                     <div class="grid-duration">
                         <p>
                             на базе 9 классов
@@ -216,31 +238,20 @@
                             3 года 10 месяцев
                         </p>
                     </div>
-                    <div class="grid-entrance">
-                        <p>
-                            Осуществляться на общедоступной основе, без сдачи вступительных испытаний, по предоставлению в приемную комиссию пакета необходимых документов. Обучение осуществляется на бесплатной основе, за счет средств бюджета.
-                        </p>
-                    </div>
-                    <div class="grid-pic">
-                        <img style="min-width:30.68vw; height:15.63vw" src="../../static/img/professions/designers1.png" alt="">
-                        <img style="min-width:30.68vw; height:18.07vw" src="../../static/img/professions/designers2.png" alt="">
-                    </div>
-                    <div class="grid-name-duration">
-                        <p>
-                            Срок обучения
-                        </p>
-                    </div>
                     <div class="grid-name-entrance">
                         <p>
                             Поступление
                         </p>
                     </div>
-                    <div class="grid-name">
+                    <div class="grid-entrance">
                         <p>
-                            54.01.20 Графический
-                            дизайнер
+                            Осуществляться на общедоступной основе, без сдачи вступительных испытаний, по предоставлению в приемную комиссию пакета необходимых документов. Обучение осуществляется на бесплатной основе, за счет средств бюджета.
                         </p>
                     </div>
+
+
+
+
                     <div class="grid-text">
                         <p>
                             Графический дизайнер-иллюстратор должен обладать знаниями в области типографского дела (знать разновидности шрифтов, представлять технический процесс создания печатной продукции).
