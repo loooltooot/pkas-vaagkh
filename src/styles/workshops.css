@@ -32,4 +32,15 @@ body main .main-content-area .main-content p {
   margin-bottom: 1.24vw;
 }
 
+@media screen and (max-width: 500px) {
+  body header .heading h2 {
+    height: 10.21vw;
+    font-size: var(--fonth1);
+  }
+  body header .subheading {
+    width: 100%;
+    height: 50%;
+  }
+}
+
 /*# sourceMappingURL=workshops.css.map */
