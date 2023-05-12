@@ -1,5 +1,5 @@
 <?php
-function print_news($result)
+function print_news($result, ?bool $is_edit = false)
 {
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
@@ -20,11 +20,17 @@ function print_news($result)
                     </div>
                     <div class="news-wrapper">
                         <p class="news-subtext"><?= mb_substr($row['content'], 0, 100) . "..." ?></p>
-                        <a href="/news/<?= $row['id'] ?>" class="btn-news">
+                        <a href="<?= $is_edit ? '/cms/add_news?id=' : "/news/" ?><?= $row['id'] ?>" class="btn-news">
                             <img src="../static/img/news/arrow.png" alt="">
-                            <p>читать</p>
+                            <p><?= $is_edit ? 'редактировать' : 'читать' ?></p>
                         </a>
                     </div>
+                    <?php if ($is_edit) {
+                    ?>
+                        <a class="delete" href="../src/php/focuses/delete_news.php?id=<?= $row['id'] ?>">удалить</a>
+                    <?php
+                    }
+                    ?>
                 </div>
             </div>
 <?php

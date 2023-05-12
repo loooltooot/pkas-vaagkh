@@ -14,7 +14,11 @@
     <title>Подать заявление</title>
 </head>
 
-<a href="#" class="bvi-open">Версия сайта для слабовидящих</a>
+<div class="bvi-button">
+    <?php
+    include("src/php/utils/bvi_button.php");
+    ?>
+</div>
 
 <body>
     <!-- Start header -->
@@ -63,7 +67,7 @@
                                     <input type="text" id="email" class="form-control" type="email">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Файл<span class=""></span></label>
+                                    <label for="">Файлы<span class=""></span></label>
                                     <input multiple type="file" id="file" class="form-control">
                                 </div>
 

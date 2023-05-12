@@ -17,7 +17,11 @@ include("src/php/utils/conn.php");
     <title>Колледж архитектуры и строительства</title>
 </head>
 
-<a href="#" class="bvi-open">Версия сайта для слабовидящих</a>
+<div class="bvi-button">
+<?php
+include("src/php/utils/bvi_button.php");
+?>
+</div>
 
 <body>
     <!-- Start header -->

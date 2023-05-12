@@ -1,0 +1,157 @@
+@charset "UTF-8";
+main {
+  display: flex;
+  column-gap: 1.04vw;
+}
+
+body {
+  padding-bottom: 1vw;
+}
+
+.card {
+  padding-bottom: 0.78vw;
+  padding-right: 1.04vw;
+  justify-content: flex-start;
+}
+
+main > div,
+main > section {
+  width: 36.46vw;
+}
+
+main > div,
+#edit-mode-wrapper > form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.52vw;
+}
+
+textarea {
+  resize: none;
+}
+
+form input:not([type=submit]),
+textarea {
+  background-color: white;
+  border: none;
+  color: var(--background-color);
+  padding: 0.5vw 0.7vw;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 1.56vw;
+}
+
+input:focus,
+textarea {
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: var(--primary-color);
+  border-radius: 1.56vw;
+  padding: 0.52vw 0.78vw;
+  margin-top: 1.04vw;
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+}
+
+input[type=submit]:hover {
+  background-color: #d04513;
+}
+
+#content-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#content-input-wrapper textarea {
+  min-height: 30vw;
+}
+
+#file-upload-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.04vw;
+  margin-top: 0.52vw;
+}
+
+#file-upload-wrapper div {
+  flex-grow: 2;
+  background-color: var(--primary-color);
+  border-radius: 1.56vw;
+  padding: 0.52vw 0.78vw;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+}
+
+#file-upload-wrapper div:hover {
+  background-color: #d04513;
+}
+
+/* Стиль новости */
+header {
+  margin-bottom: 0.89vw;
+}
+
+article {
+  cursor: pointer;
+}
+
+article p {
+  font-size: var(--p-font-size);
+  position: relative;
+}
+
+article header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+article h3 {
+  margin: 0;
+  font-size: var(--m-font-size);
+}
+
+article header span {
+  font-size: var(--s-font-size);
+}
+
+main {
+  margin-top: 1vw;
+}
+
+#fileList {
+  row-gap: 0.52vw;
+  flex-wrap: wrap;
+  column-gap: 0.52vw;
+  display: flex;
+}
+
+#fileList li {
+  background-color: var(--primary-color);
+  border-radius: 1.56vw;
+  overflow: clip;
+  padding: 0.52vw 1vw;
+  display: flex;
+  align-items: center;
+  column-gap: 0.52vw;
+  width: fit-content;
+}
+
+#fileList li * {
+  pointer-events: none;
+}
+
+#fileList li img {
+  width: 5.21vw;
+  height: 5.21vw;
+  border-radius: 1.56vw;
+}
+
+/*# sourceMappingURL=edit_news.css.map */

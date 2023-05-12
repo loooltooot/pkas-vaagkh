@@ -115,3 +115,87 @@ form {
     animation: none !important;
   }
 }
+
+@media screen and (max-width: 500px) {
+  body main .main-content .doc-1-area .main-text {
+    width: 100%;
+  }
+
+  body header .heading h2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 16.21vw;
+    font-size: var(--fonth1);
+    border-bottom: 1px solid white;
+  }
+
+  body main .main-content {
+    margin-top: 15.21vw;
+  }
+
+  form .label {
+    margin-top: 2.08vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  form .label .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.56vw;
+  }
+
+  form .label .form-group label {
+    margin-bottom: 2.52vw;
+  }
+
+  form .label .form-group input {
+    height: 12.28vw;
+  }
+
+  form .label .form-group select {
+    height: 12.28vw;
+    width: 100%;
+  }
+
+  form .information .title p {
+    height: 12.21vw;
+    margin-top: 7vw;
+    font-size: var(--fonth1);
+  }
+
+  form .information .title p {
+    width: 100%;
+  }
+
+  form .clarifications .title p {
+    height: 12.21vw;
+    font-size: var(--fonth1);
+    margin-top: 7vw;
+  }
+
+  form .clarifications .title p {
+    width: 100%;
+  }
+
+  body .label {
+    .form-group {
+      input[type="file"]::file-selector-button {
+        height: 12.28vw;
+      }
+    }
+  }
+
+  form .clarifications .label .btn-modal .btn-complaint {
+    width: 100%;
+    height: 15.65vw;
+  }
+  form .clarifications .label .btn-modal {
+    margin-top: 4vw;
+    width: 100%;
+  }
+}

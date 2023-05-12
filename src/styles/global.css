@@ -61,6 +61,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+body .bvi-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4vw;
+}
 body .wrapper {
   margin: 0 auto;
   width: 78.13vw;

@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: center;
+  column-gap: min(50px, (100vw - 300px) / 2);
+  padding-top: 0.8vw;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--primary-color);
+}
+
+main {
+  margin-top: 5.21vw;
+  padding-inline: max((100vw - 1200px) / 2, 10vw);
+}
+main ul#tables {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.055vw white solid;
+  border-bottom: 0.055vw white solid;
+}
+main ul#tables li {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+main ul#tables li:not(:last-child) {
+  border-right: 0.055vw white solid;
+}
+main ul#tables div.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 0;
+}
+main ul#tables div.card h3 {
+  font-size: var(--fonth2);
+  margin-bottom: 1.56vw;
+  font-weight: 700;
+}
+main ul#tables div.card div.links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.26vw;
+}
+
+/*# sourceMappingURL=admin.css.map */

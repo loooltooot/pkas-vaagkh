@@ -14,8 +14,11 @@
     <title>Профессии</title>
 </head>
 
-<a href="#" class="bvi-open">Версия сайта для слабовидящих</a>
-
+<div class="bvi-button">
+<?php
+include("src/php/utils/bvi_button.php");
+?>
+</div>
 <body>
     <!-- Start header -->
     <header class="header">

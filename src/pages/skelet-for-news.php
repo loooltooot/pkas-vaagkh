@@ -21,11 +21,15 @@ $query->close();
     <link rel="stylesheet" href="../src/styles/global.css">
     <link rel="stylesheet" href="../src/styles/skelet-for-news.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
+    <link rel="stylesheet" href="../src/js/bvi/css/bvi.min.css">
     <title>Новости</title>
 </head>
 
-<a href="#" class="bvi-open">Версия сайта для слабовидящих</a>
+<div class="bvi-button">
+    <?php
+    include("src/php/utils/bvi_button.php");
+    ?>
+</div>
 
 <body>
     <!-- Start header -->
@@ -169,7 +173,7 @@ $query->close();
         <img src="../../static/img/point.png" alt="">
     </div>
     <!-- End points -->
-    <script src="src/js/bvi/js/bvi.min.js"></script>
+    <script src="../src/js/bvi/js/bvi.min.js"></script>
     <script>
         new isvek.Bvi()
     </script>

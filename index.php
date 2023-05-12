@@ -45,5 +45,29 @@ if (preg_match('/^\/news\/([0-9]+)/', $request, $matches)) {
         case '/for_teachers/scientific_methodological_support':
             require $pages_path . 'scientific_methodological_support.php';
             break;
+        case '/cms':
+            require $pages_path . 'admin/auth.php';
+            break;
+        case '/cms/panel':
+            require $pages_path . 'admin/panel.php';
+            break;
+        case '/cms/news':
+            require $pages_path . 'admin/news.php';
+            break;
+        case '/cms/add_news':
+            require $pages_path . 'admin/add_news.php';
+            break;
+        case '/cms/psychologist':
+            require $pages_path . 'admin/psychologist.php';
+            break;
+        case '/cms/feedback':
+            require $pages_path . 'admin/feedback.php';
+            break;
+        case '/cms/apply':
+            require $pages_path . 'admin/apply.php';
+            break;
+        case '/cms/add_apply':
+            require $pages_path . 'admin/add_apply.php';
+            break;
     }
 }
