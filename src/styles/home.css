@@ -85,11 +85,11 @@ body .main-news .whole-news-wrapper {
   flex-grow: 1;
   padding: 1.6vw 0;
 }
-body .main-news .whole-news-wrapper:nth-child(1), body .main-news .whole-news-wrapper:nth-child(3) {
+body .main-news .whole-news-wrapper:nth-child(odd) {
   border-right: 0.05vw solid #ffffff;
   padding-right: 1.6vw;
 }
-body .main-news .whole-news-wrapper:nth-child(2), body .main-news .whole-news-wrapper:nth-child(4) {
+body .main-news .whole-news-wrapper:nth-child(even) {
   padding-left: 1.6vw;
   display: flex;
   justify-content: flex-end;
@@ -156,6 +156,73 @@ body .main-news .all-news {
 }
 body .main-news .all-news:hover {
   color: #ccc;
+}
+
+@media screen and (max-width: 500px) {
+  body header {
+    background-size: 150.13vw 80.46vw;
+    height: 81.42vw;
+  }
+  html body nav {
+    margin-bottom: 13.02vw;
+  }
+  body nav > ul > div {
+    width: 95%;
+  }
+  body nav > ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 10vw;
+  }
+  body nav > ul div:first-child {
+    display: none;
+  }
+  body .tel-menu-area .tel-menu {
+    width: 95%;
+  }
+  body .tel-menu-area {
+    display: flex;
+    flex-direction: column;
+  }
+  body .btn-tel {
+    display: none;
+  }
+  body .main-news .news {
+    width: 100%;
+  }
+  body .main-news .news-wrapper {
+    display: block;
+  }
+  body .main-news .news .img-news img {
+    width: 49%;
+    height: 100%;
+  }
+  body .main-news .whole-news-wrapper {
+    border-right: 0px;
+    border: 0.2vw solid white;
+    margin-bottom: 2vw;
+  }
+  body .main-news .whole-news-wrapper:nth-child(odd) {
+    padding-right: 0px;
+  }
+  body .main-news .whole-news-wrapper:nth-child(even) {
+    padding-left: 1.6vw;
+  }
+  body .main-news .news-wrapper .btn-news {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding-top: 15vw;
+    padding: 2vw;
+  }
+  body .main-news .news-wrapper .btn-news img {
+    width: 20%;
+  }
+  body .main-news .news-subtext {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=home.css.map */

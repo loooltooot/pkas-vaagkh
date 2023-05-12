@@ -13,7 +13,7 @@ body header .heading h2 {
   justify-content: center;
   align-items: center;
   height: 6.21vw;
-  font-size: 5vw;
+  font-size: var(--fonth1);
 }
 body header .heading-text {
   font-size: var(--main-text);
@@ -127,7 +127,7 @@ body header .heading-text {
   padding: 1.04vw;
 }
 .grid-name p {
-  font-size: var(--fonth2);
+  font-size: var(--fonth1);
 }
 
 .grid-text {
@@ -142,6 +142,12 @@ body header .heading-text {
     display: flex;
     flex-direction: column;
   }
+  .container::after {
+    display: none;
+  }
+  .container::before {
+    display: none;
+  }
   .container .grid-duration {
     border: 1px solid white;
   }
@@ -154,19 +160,25 @@ body header .heading-text {
   .container .grid-name-duration {
     border: 1px solid white;
   }
+  .container .grid-name-duration p {
+    font-size: var(--fonth1);
+  }
   .container .grid-name-entrance {
     border: 1px solid white;
+  }
+  .container .grid-name-entrance p {
+    font-size: var(--fonth1);
   }
   .container .grid-pic {
     border: 1px solid white;
   }
   .container .grid-pic img {
-    width: 117.8vw !important;
-    height: 131.2vw !important;
+    width: 100% !important;
+    height: 100% !important;
   }
   .container .grid-pic2 img {
-    width: 114vw !important;
-    height: 72.8vw !important;
+    width: 100% !important;
+    height: 100% !important;
   }
   .container .grid-text {
     border: 1px solid white;

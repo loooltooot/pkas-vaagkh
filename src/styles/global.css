@@ -344,6 +344,9 @@ body .images :nth-child(8) {
     width: 95%;
     margin: 0 auto;
   }
+  html body p {
+    line-height: 1.5;
+  }
   html body footer .wrapper {
     width: 100%;
     margin: 0 auto;
@@ -359,6 +362,10 @@ body .images :nth-child(8) {
     padding: 0 4vw;
     width: 95%;
     margin-bottom: 10vw;
+  }
+  html body .footer .column-area .btn-complaint {
+    width: 100%;
+    height: 10.65vw;
   }
 }
 

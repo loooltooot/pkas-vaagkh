@@ -13,11 +13,11 @@ html body p {
   flex-grow: 1;
   padding: 1.6vw 0;
 }
-.main-news .whole-news-wrapper:nth-child(1), .main-news .whole-news-wrapper:nth-child(3) {
+.main-news .whole-news-wrapper:nth-child(odd) {
   border-right: 0.05vw solid #ffffff;
   padding-right: 1.6vw;
 }
-.main-news .whole-news-wrapper:nth-child(2), .main-news .whole-news-wrapper:nth-child(4) {
+.main-news .whole-news-wrapper:nth-child(even) {
   padding-left: 1.6vw;
   display: flex;
   justify-content: flex-end;

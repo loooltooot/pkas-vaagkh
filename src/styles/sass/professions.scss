@@ -12,7 +12,7 @@ body {
         justify-content: center;
         align-items: center;
         height: 6.21vw;
-        font-size: 5vw;
+        font-size: var(--fonth1);
       }
     }
     .heading-text {
@@ -127,7 +127,7 @@ body {
   border-top: 0;
   padding: 1.04vw;
   p {
-    font-size: var(--fonth2);
+    font-size: var(--fonth1);
   }
 }
 .grid-text {
@@ -141,6 +141,12 @@ body {
   .container {
     display: flex;
     flex-direction: column;
+    &::after {
+      display: none;
+    }
+    &::before {
+      display: none;
+    }
     .grid-duration {
       border: 1px solid white;
     }
@@ -152,21 +158,27 @@ body {
     }
     .grid-name-duration {
       border: 1px solid white;
+      p {
+        font-size: var(--fonth1);
+      }
     }
     .grid-name-entrance {
       border: 1px solid white;
+      p {
+        font-size: var(--fonth1);
+      }
     }
     .grid-pic {
       border: 1px solid white;
       img {
-        width: 117.8vw !important;
-        height: 131.2vw !important;
+        width: 100% !important;
+        height: 100% !important;
       }
     }
     .grid-pic2 {
       img {
-        width: 114vw !important;
-        height: 72.8vw !important;
+        width: 100% !important;
+        height: 100% !important;
       }
     }
     .grid-text {
