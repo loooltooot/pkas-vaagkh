@@ -81,4 +81,39 @@ body .second-p-area .second-p :nth-child(8) {
   margin-left: 1.6vw;
 }
 
+@media screen and (max-width: 500px) {
+  body .first-p-area {
+    display: block;
+  }
+  body .first-p-area .first-p {
+    width: 100%;
+  }
+  body .first-p-area .first-p p {
+    line-height: 6.67vw;
+  }
+  body .first-p-area .first-collage img {
+    width: 100%;
+    height: 100%;
+  }
+  body .second-p-area {
+    display: block;
+  }
+  body .second-p-area .second-p {
+    width: 100%;
+  }
+  body .second-p-area .second-collage img {
+    width: 100%;
+    height: 100%;
+  }
+  body .second-p-area .second-p p {
+    line-height: 6.67vw;
+    margin-left: 0;
+  }
+  body header .heading h2 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 13.81vw;
+  }
+}
+
 /*# sourceMappingURL=history.css.map */
