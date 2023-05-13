@@ -52,3 +52,31 @@ main {
         }
     }
 }
+
+ul.table {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.56vw;
+
+    li:not(:last-child) {
+        border-bottom: .055vw white solid;
+    }
+
+    article {
+        padding-bottom: 1.56vw;
+
+        a.delete {
+            display: block;
+            margin-top: .52vw;
+        }
+    }
+
+    div.content {
+        margin-top: 1vw;
+
+        h3 {
+            font-size: var(--fonth2);
+            margin-bottom: .52vw;
+        }
+    }
+}

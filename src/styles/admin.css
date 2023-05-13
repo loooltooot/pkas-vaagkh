@@ -46,4 +46,27 @@ main ul#tables div.card div.links {
   row-gap: 0.26vw;
 }
 
+ul.table {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.56vw;
+}
+ul.table li:not(:last-child) {
+  border-bottom: 0.055vw white solid;
+}
+ul.table article {
+  padding-bottom: 1.56vw;
+}
+ul.table article a.delete {
+  display: block;
+  margin-top: 0.52vw;
+}
+ul.table div.content {
+  margin-top: 1vw;
+}
+ul.table div.content h3 {
+  font-size: var(--fonth2);
+  margin-bottom: 0.52vw;
+}
+
 /*# sourceMappingURL=admin.css.map */
