@@ -33,7 +33,7 @@ include("src/php/utils/conn.php");
     </header>
 
     <main>
-        <form method="POST" action="../src/php/focuses/add_apply.php">
+        <form method="POST" action="../src/php/focuses/add_apply.php" enctype="multipart/form-data">
             <div class="information">
                 <div class="title">
                     <p>
@@ -60,9 +60,9 @@ include("src/php/utils/conn.php");
                     </div>
                     <div class="form-group">
                         <label for="file">Файлы<span class=""></span></label>
-                        <input name="files" multiple type="file" id="file" class="form-control">
+                        <input name="files" multiple type="file" id="file" accept="image/*,application/msword,application/mspowerpoin,text/plain,application/x-compressed,application/pdf" class="form-control">
                     </div>
-
+                    <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
                 </div>
             </div>
             <div class="clarifications">
@@ -85,7 +85,7 @@ include("src/php/utils/conn.php");
                     </div>
                     <div class="form-group">
                         <label for="mark">Аттестационный бал<span class=""></span></label>
-                        <input name="mark" type="number" id="mark" class="form-control" type="">
+                        <input step="0.01" min="2" max="5" name="mark" type="number" id="mark" class="form-control" type="">
                     </div>
                     <div class="btn-modal">
                         <input type="submit" value="Отправить" class="btn-complaint"></input>
