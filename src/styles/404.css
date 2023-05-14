@@ -1,0 +1,13 @@
+main {
+  margin-top: 15.63vw;
+  margin-inline: auto;
+}
+main h2 {
+  font-size: var(--fonth1);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+/*# sourceMappingURL=404.css.map */

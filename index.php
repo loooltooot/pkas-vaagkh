@@ -69,5 +69,8 @@ if (preg_match('/^\/news\/([0-9]+)/', $request, $matches)) {
         case '/cms/add_apply':
             require $pages_path . 'admin/add_apply.php';
             break;
+        default:
+            require $pages_path . '/404.html';
+            break;
     }
 }
