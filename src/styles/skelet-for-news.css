@@ -57,4 +57,26 @@ html body .main-pic img {
   height: 20vw;
 }
 
+@media screen and (max-width: 500px) {
+  html body .wrapper {
+    width: 95%;
+  }
+  html body .main-content img {
+    width: 49%;
+    height: 49%;
+  }
+  html body .main-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  html body header .heading h2 {
+    height: 15.21vw;
+    display: flex;
+    align-items: center;
+  }
+  html body header .heading::before {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=skelet-for-news.css.map */
