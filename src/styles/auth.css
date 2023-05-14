@@ -1,0 +1,120 @@
+body {
+    height: 100vh;
+    overflow-y: clip;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw 2.3vw 0;
+    align-items: center;
+}
+
+header a,
+h2 {
+    color: white;
+}
+
+header a:hover {
+    color: var(--primary-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: .89vw;
+    font-size: var(--fonth2);
+}
+
+.auth-dialog {
+    margin: 9vw auto 24.95vw;
+    width: fit-content;
+}
+
+form {
+    background-color: var(--primary-color);
+    border-radius: 1.56vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.04vw 1.35vw;
+    row-gap: 1vw;
+    color: black;
+}
+
+div.decal {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 100vw;
+    height: 21.15vw;
+    position: absolute;
+    bottom: -12.57vw;
+    left: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:not([type="submit"]) {
+    background-color: transparent;
+    border: none;
+    border-bottom: .1vw solid var(--background-color);
+    padding-bottom: .26vw;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    border: .11vw white solid !important;
+    border-radius: 1.56vw;
+    padding: .52vw .78vw;
+    margin-top: 1vw;
+    border: none;
+    color: white;
+    text-align: left;
+    width: 11.11vw;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color .3s ease, border-color .3s ease;
+}
+
+input[type="submit"]:hover {
+    border: .11vw var(--background-color) solid !important;
+    background-color: var(--background-color);
+}
+
+form div {
+    position: relative;
+    width: fit-content;
+}
+
+form div::after {
+    content: '';
+    background-image: url("../../static/img/arrow.svg");
+    background-size: 3.44vw 1.04vw;
+    position: absolute;
+    right: .7vw;
+    top: 1.8vw;
+    width: 3.44vw;
+    height: 1.04vw;
+    pointer-events: none;
+}
+
+.error-message {
+    background-color: white;
+    border-radius: 1.56vw;
+    padding: .7vw 1vw;
+    width: fit-content;
+    position: absolute;
+    right: 2vw;
+    bottom: 2vw;
+    transition: all .3s ease-in;
+}
+
+.error-message span {
+    color: red;
+}

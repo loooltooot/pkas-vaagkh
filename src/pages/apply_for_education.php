@@ -10,8 +10,16 @@
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="src/styles/apply_for_education.css">
+    <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
+    <script src="src/js/modalController.js" defer></script>
     <title>Подать заявление</title>
 </head>
+
+<div class="bvi-button">
+    <?php
+    include("src/php/utils/bvi_button.php");
+    ?>
+</div>
 
 <body>
     <!-- Start header -->
@@ -34,7 +42,7 @@
         <section class="main-content-area">
             <div class="wrapper">
                 <div class="main-content">
-                    <form>
+                    <form method="POST" action="../src/php/focuses/add_apply.php" enctype="multipart/form-data">
                         <div class="information">
                             <div class="title">
                                 <p>
@@ -42,28 +50,27 @@
                                 </p>
                             </div>
                             <div class="label">
-
                                 <div class="form-group">
                                     <label for="login">Ваша Фамилия<span class=""></span></label>
-                                    <input type="text" id="username" class="form-control" type="">
+                                    <input required name="surname" type="text" id="username" class="form-control" type="">
                                 </div>
                                 <div class="form-group">
-                                    <label for="login">Ваше Имя<span class=""></span></label>
-                                    <input type="text" id="usersurname" class="form-control" type="">
+                                    <label for="usersurname">Ваше Имя<span class=""></span></label>
+                                    <input required name="name" type="text" id="usersurname" class="form-control" type="">
                                 </div>
                                 <div class="form-group">
-                                    <label for="login">Ваше Отчество<span class=""></span></label>
-                                    <input type="text" id="usersecondname" class="form-control" type="">
+                                    <label for="usersecondname">Ваше Отчество<span class=""></span></label>
+                                    <input required name="patronim" type="text" id="usersecondname" class="form-control" type="">
                                 </div>
                                 <div class="form-group">
-                                    <label for="login">Почта<span class=""></span></label>
-                                    <input type="text" id="email" class="form-control" type="email">
+                                    <label for="email">Почта<span class=""></span></label>
+                                    <input required name="email" type="email" id="email" class="form-control" type="email">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Файл<span class=""></span></label>
-                                    <input multiple type="file" id="file" class="form-control">
+                                    <label for="file">Файлы<span class=""></span></label>
+                                    <input name="files[]" multiple type="file" id="file" accept="image/*,application/msword,application/mspowerpoin,text/plain,application/x-compressed,application/pdf" class="form-control">
                                 </div>
-
+                                <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
                             </div>
                         </div>
                         <div class="clarifications">
@@ -75,21 +82,21 @@
                             <div class="label">
 
                                 <div class="form-group">
-                                    <label for="login">Специальность<span class=""></span></label>
-                                    <select id="username" class="form-control">
-                                    <option value="0" disabled selected>Выберите специальность</option>
-                                    <option value="0"  selected>Выберите специальность</option>
-                                    <option value="0"  selected>Выберите специальность</option>
-    
-                                    <option value="0"  selected>Выберите специальность</option>
+                                    <label for="profession">Специальность<span class=""></span></label>
+                                    <select name="profession" id="profession" class="form-control">
+                                        <option value="0" disabled selected>Выберите специальность</option>
+                                        <option value="07.02.01 Архитектура">07.02.01 Архитектура</option>
+                                        <option value="08.02.01 Строительство и эксплуатация зданий и сооружений">08.02.01 Строительство и эксплуатация зданий и сооружений</option>
+                                        <option value="09.02.07 Информационные системы и программирование">09.02.07 Информационные системы и программирование</option>
+                                        <option value="54.01.20 Графический дизайнер">54.01.20 Графический дизайнер</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="login">Аттестационный бал<span class=""></span></label>
-                                    <input type="text" id="usersurname" class="form-control" type="">
+                                    <label for="mark">Аттестационный бал<span class=""></span></label>
+                                    <input required step="0.01" min="2" max="5" name="mark" type="number" id="mark" class="form-control" type="">
                                 </div>
                                 <div class="btn-modal">
-                                    <button class="btn-complaint">Отправить</button>
+                                    <input type="submit" value="Отправить" class="btn-complaint"></input>
                                 </div>
 
                             </div>
@@ -146,7 +153,7 @@
                         <li>Есть предложения по организации <br>
                             учебного процесса или знаете, как<br>
                             сделать колледж лучше? </li>
-                        <li><button class="btn-complaint" href="#">Написать о жалобе</button></li>
+                        <li><button id="showModalButton" class="btn-complaint" href="#">Написать о жалобе</button></li>
                     </ul>
                 </div>
             </div>
@@ -156,20 +163,20 @@
 
     <!-- Start Modal feedback -->
     <div class="modal-fid">
-        <div class="modal">
+        <div id="modal" class="modal">
             <h3>ОБРАТНАЯ СВЯЗЬ</h3>
-            <form>
+            <form method="POST" action="src/php/focuses/add_feedback.php">
                 <div class="form-group">
-                    <label for="login">Ваше ФИО<span class=""></span></label>
-                    <input type="text" id="username" class="form-control" type="">
+                    <label for="username">Ваше ФИО</label>
+                    <input required name="full_name" type="text" id="username" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="login">Почта<span class=""></span></label>
-                    <input type="text" id="email" class="form-control" type="email">
+                    <label for="email">Почта</label>
+                    <input required name="email" id="email" class="form-control" type="email">
                 </div>
                 <div class="form-group">
-                    <label for="">Опишите ситуацию<span class=""></span></label>
-                    <textarea class="form-control" name="con_message"></textarea>
+                    <label for="form-control">Опишите ситуацию</label>
+                    <textarea required class="form-control" id="form-control" name="content"></textarea>
                 </div>
                 <p class="form-subtext">
                     Если у Вас несколько вопросов, напишите отдельное сообщение
@@ -177,17 +184,17 @@
                 </p>
                 <div class="checkboxes">
                     <div>
-                        <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+                        <input type="checkbox" class="custom-checkbox" id="happy" name="ur_lico">
                         <label for="happy">Сообщение от имени юридического лица</label>
                     </div>
                     <div>
-                        <input type="checkbox" class="custom-checkbox" id="happy1" name="happy" value="yes">
+                        <input required type="checkbox" class="custom-checkbox" id="happy1" name="happy">
                         <label for="happy1">Я соглашаюсь с правилами подачи сообщения</label>
                     </div>
                 </div>
                 <div class="btn-modal">
-                    <button class="btn-complaint">Добавить файл</button>
-                    <button class="btn-complaint">Отправить</button>
+                    <input type="submit" class="btn-complaint" value="Отправить"></input>
+                    <button class="btn-complaint" id="closeModal">Закрыть</button>
                 </div>
             </form>
         </div>
@@ -199,6 +206,10 @@
         <img src="../../static/img/line.png" alt="">
     </div>
     <!-- End points -->
+    <script src="src/js/bvi/js/bvi.min.js"></script>
+    <script>
+        new isvek.Bvi()
+    </script>
 </body>
 
 </html>

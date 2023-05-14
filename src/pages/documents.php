@@ -10,8 +10,16 @@
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/documents.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
+    <script src="src/js/modalController.js" defer></script>
     <title>Документы</title>
 </head>
+
+<div class="bvi-button">
+    <?php
+    include("src/php/utils/bvi_button.php");
+    ?>
+</div>
 
 <body>
     <!-- Start header -->
@@ -119,7 +127,7 @@
                         <li>Есть предложения по организации <br>
                             учебного процесса или знаете, как<br>
                             сделать колледж лучше? </li>
-                        <li><button class="btn-complaint" href="#">Написать о жалобе</button></li>
+                        <li><button id="showModalButton" class="btn-complaint" href="#">Написать о жалобе</button></li>
                     </ul>
                 </div>
             </div>
@@ -129,20 +137,20 @@
 
     <!-- Start Modal feedback -->
     <div class="modal-fid">
-        <div class="modal">
+        <div id="modal" class="modal">
             <h3>ОБРАТНАЯ СВЯЗЬ</h3>
-            <form>
+            <form method="POST" action="src/php/focuses/add_feedback.php">
                 <div class="form-group">
-                    <label for="login">Ваше ФИО<span class=""></span></label>
-                    <input type="text" id="username" class="form-control" type="">
+                    <label for="username">Ваше ФИО</label>
+                    <input required name="full_name" type="text" id="username" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="login">Почта<span class=""></span></label>
-                    <input type="text" id="email" class="form-control" type="email">
+                    <label for="email">Почта</label>
+                    <input required name="email" id="email" class="form-control" type="email">
                 </div>
                 <div class="form-group">
-                    <label for="">Опишите ситуацию<span class=""></span></label>
-                    <textarea class="form-control" name="con_message"></textarea>
+                    <label for="form-control">Опишите ситуацию</label>
+                    <textarea required class="form-control" id="form-control" name="content"></textarea>
                 </div>
                 <p class="form-subtext">
                     Если у Вас несколько вопросов, напишите отдельное сообщение
@@ -150,23 +158,26 @@
                 </p>
                 <div class="checkboxes">
                     <div>
-                        <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+                        <input type="checkbox" class="custom-checkbox" id="happy" name="ur_lico">
                         <label for="happy">Сообщение от имени юридического лица</label>
                     </div>
                     <div>
-                        <input type="checkbox" class="custom-checkbox" id="happy1" name="happy" value="yes">
+                        <input required type="checkbox" class="custom-checkbox" id="happy1" name="happy">
                         <label for="happy1">Я соглашаюсь с правилами подачи сообщения</label>
                     </div>
                 </div>
                 <div class="btn-modal">
-                    <button class="btn-complaint">Добавить файл</button>
-                    <button class="btn-complaint">Отправить</button>
+                    <input type="submit" class="btn-complaint" value="Отправить"></input>
+                    <button class="btn-complaint" id="closeModal">Закрыть</button>
                 </div>
             </form>
         </div>
     </div>
     <!-- End Modal fidback-->
-
+    <script src="src/js/bvi/js/bvi.min.js"></script>
+    <script>
+        new isvek.Bvi()
+    </script>
 </body>
 
 </html>

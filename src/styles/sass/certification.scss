@@ -82,3 +82,17 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  body header .heading h2 {
+    height: 18.21vw;
+  }
+
+  body .main-content .arrow2-pic img {
+    width: 100%;
+  }
+
+  body .main-content .arrow1-area .arrow1-name .arrow1-pic img {
+    width: 100%;
+  }
+}

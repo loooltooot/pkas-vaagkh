@@ -12,12 +12,12 @@ body {
         justify-content: center;
         align-items: center;
         height: 6.21vw;
-        font-size: 5vw;
+        font-size: var(--fonth1);
       }
     }
     .heading-text {
       font-size: var(--main-text);
-      width: 31.25vw;
+      width: 100%;
       text-align: justify;
     }
   }
@@ -127,7 +127,7 @@ body {
   border-top: 0;
   padding: 1.04vw;
   p {
-    font-size: var(--fonth2);
+    font-size: var(--fonth1);
   }
 }
 .grid-text {
@@ -135,4 +135,54 @@ body {
   border: 1px solid white;
   border-left: 0;
   padding: 1.56vw 2.6vw;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    &::after {
+      display: none;
+    }
+    &::before {
+      display: none;
+    }
+    .grid-duration {
+      border: 1px solid white;
+    }
+    .grid-entrance {
+      border: 1px solid white;
+    }
+    .grid-name {
+      border: 1px solid white;
+    }
+    .grid-name-duration {
+      border: 1px solid white;
+      p {
+        font-size: var(--fonth1);
+      }
+    }
+    .grid-name-entrance {
+      border: 1px solid white;
+      p {
+        font-size: var(--fonth1);
+      }
+    }
+    .grid-pic {
+      border: 1px solid white;
+      img {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+    .grid-pic2 {
+      img {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+    .grid-text {
+      border: 1px solid white;
+    }
+  }
 }

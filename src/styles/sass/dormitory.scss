@@ -49,3 +49,20 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  body main .main-content-area .main-content {
+    width: 100%;
+  }
+  body header .heading h2 {
+    height: 7.21vw;
+  }
+
+  body main .main-content-area .main-img {
+    display: block;
+  }
+
+  body main .main-content-area .main-img img {
+    width: 100%;
+  }
+}

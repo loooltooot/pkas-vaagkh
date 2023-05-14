@@ -109,4 +109,60 @@ body footer .wrapper {
   width: 78.13vw;
 }
 
+@media screen and (max-width: 500px) {
+  html body .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+  body .main-content .test-area .test-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  body header .heading h2 {
+    height: 15.21vw;
+  }
+  body .main-content .test-area .ktoti p {
+    font-size: var(--fonth1);
+  }
+  body .main-content .test-area .test .trava-pic img {
+    display: none;
+  }
+  body .main-content .test-area .test {
+    display: block;
+  }
+  body .main-content .test-area .test .test-text .btn-modal .btn-complaint {
+    width: 100%;
+    height: 10.65vw;
+  }
+  body .main-content .question-area .question-name p {
+    height: 18.81vw;
+  }
+  body form .label {
+    margin-top: 2.08vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  body .main-content .question-area .question-main .label form .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.56vw;
+  }
+  body .main-content .question-area .question-main .label form .form-group label {
+    margin-bottom: 2.52vw;
+  }
+  body .main-content .question-area .question-main .label form .form-group input {
+    height: 12.28vw;
+  }
+  body .main-content .question-area .question-main .label form {
+    width: 100%;
+  }
+  body .main-content .question-area .question-main .label .btn-modal .btn-complaint {
+    width: 100%;
+    height: 10.65vw;
+  }
+}
+
 /*# sourceMappingURL=psychologist.css.map */

@@ -61,6 +61,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+body .bvi-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4vw;
+}
 body .wrapper {
   margin: 0 auto;
   width: 78.13vw;
@@ -111,6 +116,7 @@ body footer {
   margin-top: 20vw;
   background-image: url(../../../static/img/home/footer-back.png);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 body .footer {
   display: flex;
@@ -144,14 +150,15 @@ body .footer ul .btn-complaint:hover {
   background-color: antiquewhite;
 }
 body .modal {
-  display: none;
-  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
   position: fixed;
-  top: 50px;
-  left: 570px;
+  top: 1vw;
+  left: 29.69vw;
   background: var(--primary-color);
   width: 33.85vw;
-  height: 39.71vw;
+  height: fit-content;
   padding: 3.13vw;
 }
 body .modal form .form-subtext {
@@ -328,6 +335,76 @@ body .images :nth-child(8) {
 
 .spacer {
   flex-grow: 1;
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --fonth1: 5.8vw;
+    --fonth2: 4.4vw;
+    --main-text: 4.8vw;
+    --background-color: #191919;
+    --primary-color: #ea531d;
+    --text-color: white;
+  }
+  html body .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+  html body p {
+    line-height: 1.5;
+  }
+  html body footer .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-size: 100% 120vw;
+  }
+  html body footer {
+    background-size: 100% 220vw;
+  }
+  html body .footer {
+    flex-direction: column;
+  }
+  html body .footer div {
+    padding: 0 4vw;
+    width: 95%;
+    margin-bottom: 10vw;
+  }
+  html body .footer .column-area .btn-complaint {
+    width: 100%;
+    height: 10.65vw;
+  }
+  body .modal {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+  }
+  body .modal .form-group {
+    height: 20vw;
+    margin-top: 2.56vw;
+  }
+  body .modal .form-group input {
+    height: 10.34vw;
+  }
+  body .modal .form-group textarea {
+    height: 20.34vw;
+  }
+  body .modal .btn-modal .btn-complaint {
+    width: 50%;
+    height: 10.65vw;
+  }
+  body .modal .checkboxes div .custom-checkbox + label::before {
+    width: 5.3vw;
+    height: 5.3vw;
+  }
+  body .modal .checkboxes {
+    margin-top: 8.56vw;
+    margin-bottom: 8.56vw;
+  }
+  body .modal h3 {
+    font-size: var(--fonth1);
+    margin-bottom: 8.56vw;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */

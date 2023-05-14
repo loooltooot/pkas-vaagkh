@@ -13,11 +13,11 @@ body header .heading h2 {
   justify-content: center;
   align-items: center;
   height: 6.21vw;
-  font-size: 5vw;
+  font-size: var(--fonth1);
 }
 body header .heading-text {
   font-size: var(--main-text);
-  width: 31.25vw;
+  width: 100%;
   text-align: justify;
 }
 
@@ -127,7 +127,7 @@ body header .heading-text {
   padding: 1.04vw;
 }
 .grid-name p {
-  font-size: var(--fonth2);
+  font-size: var(--fonth1);
 }
 
 .grid-text {
@@ -135,6 +135,54 @@ body header .heading-text {
   border: 1px solid white;
   border-left: 0;
   padding: 1.56vw 2.6vw;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container::after {
+    display: none;
+  }
+  .container::before {
+    display: none;
+  }
+  .container .grid-duration {
+    border: 1px solid white;
+  }
+  .container .grid-entrance {
+    border: 1px solid white;
+  }
+  .container .grid-name {
+    border: 1px solid white;
+  }
+  .container .grid-name-duration {
+    border: 1px solid white;
+  }
+  .container .grid-name-duration p {
+    font-size: var(--fonth1);
+  }
+  .container .grid-name-entrance {
+    border: 1px solid white;
+  }
+  .container .grid-name-entrance p {
+    font-size: var(--fonth1);
+  }
+  .container .grid-pic {
+    border: 1px solid white;
+  }
+  .container .grid-pic img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .container .grid-pic2 img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .container .grid-text {
+    border: 1px solid white;
+  }
 }
 
 /*# sourceMappingURL=professions.css.map */

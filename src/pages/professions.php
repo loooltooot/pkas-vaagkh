@@ -10,8 +10,16 @@
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/professions.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
+    <script src="src/js/modalController.js" defer></script>
     <title>Профессии</title>
 </head>
+
+<div class="bvi-button">
+    <?php
+    include("src/php/utils/bvi_button.php");
+    ?>
+</div>
 
 <body>
     <!-- Start header -->
@@ -41,6 +49,19 @@
         <section class="grid-content-area">
             <div class="wrapper">
                 <div class="container">
+                    <div class="grid-name">
+                        <p>
+                            07.02.01 Архитектура
+                        </p>
+                    </div>
+                    <div class="grid-pic">
+                        <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/architecture.png" alt="">
+                    </div>
+                    <div class="grid-name-duration">
+                        <p>
+                            Срок обучения
+                        </p>
+                    </div>
                     <div class="grid-duration">
                         <p>
                             на базе 9 классов
@@ -54,27 +75,14 @@
                             4 года 10 месяцев
                         </p>
                     </div>
-                    <div class="grid-entrance">
-                        <p>
-                            Для поступления нужно пройти творческое испытание по рисунку, также в расчет принимается средний балл аттестата. С примерами работ творческого испытания можно ознакомиться в разделе «Абитуриенту».
-                        </p>
-                    </div>
-                    <div class="grid-pic">
-                        <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/architecture.png" alt="">
-                    </div>
-                    <div class="grid-name-duration">
-                        <p>
-                            Срок обучения
-                        </p>
-                    </div>
                     <div class="grid-name-entrance">
                         <p>
                             Поступление
                         </p>
                     </div>
-                    <div class="grid-name">
+                    <div class="grid-entrance">
                         <p>
-                            07.02.01 Архитектура
+                            Для поступления нужно пройти творческое испытание по рисунку, также в расчет принимается средний балл аттестата. С примерами работ творческого испытания можно ознакомиться в разделе «Абитуриенту».
                         </p>
                     </div>
                     <div class="grid-text">
@@ -90,6 +98,20 @@
                     </div>
                 </div>
                 <div class="container container1">
+                    <div class="grid-name">
+                        <p>
+                            08.02.01 Строительство и эксплуатация зданий
+                            и сооружений
+                        </p>
+                    </div>
+                    <div class="grid-pic">
+                        <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/construction.png" alt="">
+                    </div>
+                    <div class="grid-name-duration">
+                        <p>
+                            Срок обучения
+                        </p>
+                    </div>
                     <div class="grid-duration">
                         <div class="duration-1">
                             <p>
@@ -113,30 +135,19 @@
                             </p>
                         </div>
                     </div>
-                    <div class="grid-entrance">
-                        <p>
-                            Осуществляться на общедоступной основе, без сдачи вступительных испытаний, по предоставлению в приемную комиссию пакета необходимых документов. Обучение осуществляется на бесплатной основе, за счет средств бюджета.
-                        </p>
-                    </div>
-                    <div class="grid-pic">
-                        <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/construction.png" alt="">
-                    </div>
-                    <div class="grid-name-duration">
-                        <p>
-                            Срок обучения
-                        </p>
-                    </div>
                     <div class="grid-name-entrance">
                         <p>
                             Поступление
                         </p>
                     </div>
-                    <div class="grid-name">
+                    <div class="grid-entrance">
                         <p>
-                            08.02.01 Строительство и эксплуатация зданий
-                            и сооружений
+                            Осуществляться на общедоступной основе, без сдачи вступительных испытаний, по предоставлению в приемную комиссию пакета необходимых документов. Обучение осуществляется на бесплатной основе, за счет средств бюджета.
                         </p>
                     </div>
+
+
+
                     <div class="grid-text">
                         <p>
                             Наш выпускник обладает профессиональными компетенциями, соответствующими основным видам профессиональной деятельности и может:
@@ -153,6 +164,22 @@
                     </div>
                 </div>
                 <div class="container container2">
+                    <div class="grid-name">
+                        <p>
+                            09.02.07 Информационные
+                            системы и
+                            программирование
+                        </p>
+                    </div>
+                    <div class="grid-pic grid-pic2">
+                        <img style="min-width:30.68vw; height:19.58vw" src="../../static/img/professions/programmers1.png" alt="">
+                        <img style="min-width:30.68vw; height:14.79vw" src="../../static/img/professions/programmers2.png" alt="">
+                    </div>
+                    <div class="grid-name-duration">
+                        <p>
+                            Срок обучения
+                        </p>
+                    </div>
                     <div class="grid-duration">
                         <p>
                             на базе 9 классов
@@ -166,32 +193,20 @@
                             4 года 10 месяцев
                         </p>
                     </div>
-                    <div class="grid-entrance">
-                        <p>
-                            Для поступления нужно пройти творческое испытание по рисунку, также в расчет принимается средний балл аттестата. С примерами работ творческого испытания можно ознакомиться в разделе «Абитуриенту».
-                        </p>
-                    </div>
-                    <div class="grid-pic">
-                        <img style="min-width:30.68vw; height:19.58vw" src="../../static/img/professions/programmers1.png" alt="">
-                        <img style="min-width:30.68vw; height:14.79vw" src="../../static/img/professions/programmers2.png" alt="">
-                    </div>
-                    <div class="grid-name-duration">
-                        <p>
-                            Срок обучения
-                        </p>
-                    </div>
                     <div class="grid-name-entrance">
                         <p>
                             Поступление
                         </p>
                     </div>
-                    <div class="grid-name">
+                    <div class="grid-entrance">
                         <p>
-                            09.02.07 Информационные
-                            системы и
-                            программирование
+                            Для поступления нужно пройти творческое испытание по рисунку, также в расчет принимается средний балл аттестата. С примерами работ творческого испытания можно ознакомиться в разделе «Абитуриенту».
                         </p>
                     </div>
+
+
+
+
                     <div class="grid-text">
                         <p>
                             Разработчики Web и мультимедийных приложений сочетают в своей работе дизайнерские и технические знания.
@@ -204,6 +219,21 @@
                     </div>
                 </div>
                 <div class="container">
+                    <div class="grid-name">
+                        <p>
+                            54.01.20 Графический
+                            дизайнер
+                        </p>
+                    </div>
+                    <div class="grid-pic grid-pic2">
+                        <img style="min-width:30.68vw; height:15.63vw" src="../../static/img/professions/designers1.png" alt="">
+                        <img style="min-width:30.68vw; height:18.07vw" src="../../static/img/professions/designers2.png" alt="">
+                    </div>
+                    <div class="grid-name-duration">
+                        <p>
+                            Срок обучения
+                        </p>
+                    </div>
                     <div class="grid-duration">
                         <p>
                             на базе 9 классов
@@ -213,31 +243,20 @@
                             3 года 10 месяцев
                         </p>
                     </div>
-                    <div class="grid-entrance">
-                        <p>
-                            Осуществляться на общедоступной основе, без сдачи вступительных испытаний, по предоставлению в приемную комиссию пакета необходимых документов. Обучение осуществляется на бесплатной основе, за счет средств бюджета.
-                        </p>
-                    </div>
-                    <div class="grid-pic">
-                        <img style="min-width:30.68vw; height:15.63vw" src="../../static/img/professions/designers1.png" alt="">
-                        <img style="min-width:30.68vw; height:18.07vw" src="../../static/img/professions/designers2.png" alt="">
-                    </div>
-                    <div class="grid-name-duration">
-                        <p>
-                            Срок обучения
-                        </p>
-                    </div>
                     <div class="grid-name-entrance">
                         <p>
                             Поступление
                         </p>
                     </div>
-                    <div class="grid-name">
+                    <div class="grid-entrance">
                         <p>
-                            54.01.20 Графический
-                            дизайнер
+                            Осуществляться на общедоступной основе, без сдачи вступительных испытаний, по предоставлению в приемную комиссию пакета необходимых документов. Обучение осуществляется на бесплатной основе, за счет средств бюджета.
                         </p>
                     </div>
+
+
+
+
                     <div class="grid-text">
                         <p>
                             Графический дизайнер-иллюстратор должен обладать знаниями в области типографского дела (знать разновидности шрифтов, представлять технический процесс создания печатной продукции).
@@ -305,7 +324,7 @@
                         <li>Есть предложения по организации <br>
                             учебного процесса или знаете, как<br>
                             сделать колледж лучше? </li>
-                        <li><button class="btn-complaint" href="#">Написать о жалобе</button></li>
+                        <li><button id="showModalButton" class="btn-complaint" href="#">Написать о жалобе</button></li>
                     </ul>
                 </div>
             </div>
@@ -315,20 +334,20 @@
 
     <!-- Start Modal feedback -->
     <div class="modal-fid">
-        <div class="modal">
+        <div id="modal" class="modal">
             <h3>ОБРАТНАЯ СВЯЗЬ</h3>
-            <form>
+            <form method="POST" action="src/php/focuses/add_feedback.php">
                 <div class="form-group">
-                    <label for="login">Ваше ФИО<span class=""></span></label>
-                    <input type="text" id="username" class="form-control" type="">
+                    <label for="username">Ваше ФИО</label>
+                    <input required name="full_name" type="text" id="username" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="login">Почта<span class=""></span></label>
-                    <input type="text" id="email" class="form-control" type="email">
+                    <label for="email">Почта</label>
+                    <input required name="email" id="email" class="form-control" type="email">
                 </div>
                 <div class="form-group">
-                    <label for="">Опишите ситуацию<span class=""></span></label>
-                    <textarea class="form-control" name="con_message"></textarea>
+                    <label for="form-control">Опишите ситуацию</label>
+                    <textarea required class="form-control" id="form-control" name="content"></textarea>
                 </div>
                 <p class="form-subtext">
                     Если у Вас несколько вопросов, напишите отдельное сообщение
@@ -336,23 +355,26 @@
                 </p>
                 <div class="checkboxes">
                     <div>
-                        <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+                        <input type="checkbox" class="custom-checkbox" id="happy" name="ur_lico">
                         <label for="happy">Сообщение от имени юридического лица</label>
                     </div>
                     <div>
-                        <input type="checkbox" class="custom-checkbox" id="happy1" name="happy" value="yes">
+                        <input required type="checkbox" class="custom-checkbox" id="happy1" name="happy">
                         <label for="happy1">Я соглашаюсь с правилами подачи сообщения</label>
                     </div>
                 </div>
                 <div class="btn-modal">
-                    <button class="btn-complaint">Добавить файл</button>
-                    <button class="btn-complaint">Отправить</button>
+                    <input type="submit" class="btn-complaint" value="Отправить"></input>
+                    <button class="btn-complaint" id="closeModal">Закрыть</button>
                 </div>
             </form>
         </div>
     </div>
     <!-- End Modal fidback-->
-
+    <script src="src/js/bvi/js/bvi.min.js"></script>
+    <script>
+        new isvek.Bvi()
+    </script>
 </body>
 
 </html>
