@@ -77,6 +77,12 @@ html body .main-pic img {
   html body header .heading::before {
     display: none;
   }
+  html body footer {
+    background-size: 100% 320vw;
+  }
+  html body footer .wrapper {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=skelet-for-news.css.map */
