@@ -1,8 +1,6 @@
 <?php
 include("../utils/conn.php");
 
-var_dump($_FILES['files']);
-
 if (!empty($_FILES["files"])) {
     $uploadDirectory = "../../../static/uploads/applyes/";
     for ($i = 0; $i < count($_FILES["files"]["name"]); $i++) {

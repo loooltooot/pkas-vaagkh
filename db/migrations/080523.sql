@@ -64,6 +64,7 @@ CREATE TABLE `aplly` (
 --
 
 CREATE TABLE `feedback` (
+  `id` int(11) NOT NULL,
   `full_name` int(11) NOT NULL,
   `email` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
   `content` text COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -140,7 +141,7 @@ ALTER TABLE `aplly`
 -- Индексы таблицы `feedback`
 --
 ALTER TABLE `feedback`
-  ADD PRIMARY KEY (`full_name`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `news`
@@ -181,7 +182,7 @@ ALTER TABLE `aplly`
 -- AUTO_INCREMENT для таблицы `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `full_name` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT для таблицы `news`

@@ -42,7 +42,7 @@ $result = $conn->query("select * from feedback");
                     <li>
                         <article>
                             <div class="contacts">
-                                <span><?= $row['fullname'] ?></span>
+                                <span><?= $row['full_name'] ?></span>
                                 <span><?= $row['email'] ?></span>
                             </div>
 

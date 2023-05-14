@@ -41,26 +41,25 @@ include("src/php/utils/conn.php");
                     </p>
                 </div>
                 <div class="label">
-
                     <div class="form-group">
                         <label for="login">Ваша Фамилия<span class=""></span></label>
-                        <input name="surname" type="text" id="username" class="form-control" type="">
+                        <input required name="surname" type="text" id="username" class="form-control" type="">
                     </div>
                     <div class="form-group">
                         <label for="usersurname">Ваше Имя<span class=""></span></label>
-                        <input name="name" type="text" id="usersurname" class="form-control" type="">
+                        <input required name="name" type="text" id="usersurname" class="form-control" type="">
                     </div>
                     <div class="form-group">
                         <label for="usersecondname">Ваше Отчество<span class=""></span></label>
-                        <input name="patronim" type="text" id="usersecondname" class="form-control" type="">
+                        <input required name="patronim" type="text" id="usersecondname" class="form-control" type="">
                     </div>
                     <div class="form-group">
                         <label for="email">Почта<span class=""></span></label>
-                        <input name="email" type="email" id="email" class="form-control" type="email">
+                        <input required name="email" type="email" id="email" class="form-control" type="email">
                     </div>
                     <div class="form-group">
                         <label for="file">Файлы<span class=""></span></label>
-                        <input name="files" multiple type="file" id="file" accept="image/*,application/msword,application/mspowerpoin,text/plain,application/x-compressed,application/pdf" class="form-control">
+                        <input name="files[]" multiple type="file" id="file" accept="image/*,application/msword,application/mspowerpoin,text/plain,application/x-compressed,application/pdf" class="form-control">
                     </div>
                     <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
                 </div>
@@ -85,7 +84,7 @@ include("src/php/utils/conn.php");
                     </div>
                     <div class="form-group">
                         <label for="mark">Аттестационный бал<span class=""></span></label>
-                        <input step="0.01" min="2" max="5" name="mark" type="number" id="mark" class="form-control" type="">
+                        <input required step="0.01" min="2" max="5" name="mark" type="number" id="mark" class="form-control" type="">
                     </div>
                     <div class="btn-modal">
                         <input type="submit" value="Отправить" class="btn-complaint"></input>

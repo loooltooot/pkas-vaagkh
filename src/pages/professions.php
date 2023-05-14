@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="src/styles/professions.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="src/js/bvi/css/bvi.min.css">
+    <script src="src/js/modalController.js" defer></script>
     <title>Профессии</title>
 </head>
 
 <div class="bvi-button">
-<?php
-include("src/php/utils/bvi_button.php");
-?>
+    <?php
+    include("src/php/utils/bvi_button.php");
+    ?>
 </div>
+
 <body>
     <!-- Start header -->
     <header class="header">
@@ -47,7 +49,7 @@ include("src/php/utils/bvi_button.php");
         <section class="grid-content-area">
             <div class="wrapper">
                 <div class="container">
-                <div class="grid-name">
+                    <div class="grid-name">
                         <p>
                             07.02.01 Архитектура
                         </p>
@@ -96,13 +98,13 @@ include("src/php/utils/bvi_button.php");
                     </div>
                 </div>
                 <div class="container container1">
-                <div class="grid-name">
+                    <div class="grid-name">
                         <p>
                             08.02.01 Строительство и эксплуатация зданий
                             и сооружений
                         </p>
                     </div>
-                <div class="grid-pic">
+                    <div class="grid-pic">
                         <img style="width: 30.68vw; height: 34.17vw;" src="../../static/img/professions/construction.png" alt="">
                     </div>
                     <div class="grid-name-duration">
@@ -162,14 +164,14 @@ include("src/php/utils/bvi_button.php");
                     </div>
                 </div>
                 <div class="container container2">
-                <div class="grid-name">
+                    <div class="grid-name">
                         <p>
                             09.02.07 Информационные
                             системы и
                             программирование
                         </p>
                     </div>
-                <div class="grid-pic grid-pic2">
+                    <div class="grid-pic grid-pic2">
                         <img style="min-width:30.68vw; height:19.58vw" src="../../static/img/professions/programmers1.png" alt="">
                         <img style="min-width:30.68vw; height:14.79vw" src="../../static/img/professions/programmers2.png" alt="">
                     </div>
@@ -217,7 +219,7 @@ include("src/php/utils/bvi_button.php");
                     </div>
                 </div>
                 <div class="container">
-                <div class="grid-name">
+                    <div class="grid-name">
                         <p>
                             54.01.20 Графический
                             дизайнер
@@ -322,7 +324,7 @@ include("src/php/utils/bvi_button.php");
                         <li>Есть предложения по организации <br>
                             учебного процесса или знаете, как<br>
                             сделать колледж лучше? </li>
-                        <li><button class="btn-complaint" href="#">Написать о жалобе</button></li>
+                        <li><button id="showModalButton" class="btn-complaint" href="#">Написать о жалобе</button></li>
                     </ul>
                 </div>
             </div>
@@ -332,20 +334,20 @@ include("src/php/utils/bvi_button.php");
 
     <!-- Start Modal feedback -->
     <div class="modal-fid">
-        <div class="modal">
+        <div id="modal" class="modal">
             <h3>ОБРАТНАЯ СВЯЗЬ</h3>
-            <form>
+            <form method="POST" action="src/php/focuses/add_feedback.php">
                 <div class="form-group">
-                    <label for="login">Ваше ФИО<span class=""></span></label>
-                    <input type="text" id="username" class="form-control" type="">
+                    <label for="username">Ваше ФИО</label>
+                    <input required name="full_name" type="text" id="username" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="login">Почта<span class=""></span></label>
-                    <input type="text" id="email" class="form-control" type="email">
+                    <label for="email">Почта</label>
+                    <input required name="email" id="email" class="form-control" type="email">
                 </div>
                 <div class="form-group">
-                    <label for="">Опишите ситуацию<span class=""></span></label>
-                    <textarea class="form-control" name="con_message"></textarea>
+                    <label for="form-control">Опишите ситуацию</label>
+                    <textarea required class="form-control" id="form-control" name="content"></textarea>
                 </div>
                 <p class="form-subtext">
                     Если у Вас несколько вопросов, напишите отдельное сообщение
@@ -353,17 +355,17 @@ include("src/php/utils/bvi_button.php");
                 </p>
                 <div class="checkboxes">
                     <div>
-                        <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+                        <input type="checkbox" class="custom-checkbox" id="happy" name="ur_lico">
                         <label for="happy">Сообщение от имени юридического лица</label>
                     </div>
                     <div>
-                        <input type="checkbox" class="custom-checkbox" id="happy1" name="happy" value="yes">
+                        <input required type="checkbox" class="custom-checkbox" id="happy1" name="happy">
                         <label for="happy1">Я соглашаюсь с правилами подачи сообщения</label>
                     </div>
                 </div>
                 <div class="btn-modal">
-                    <button class="btn-complaint">Добавить файл</button>
-                    <button class="btn-complaint">Отправить</button>
+                    <input type="submit" class="btn-complaint" value="Отправить"></input>
+                    <button class="btn-complaint" id="closeModal">Закрыть</button>
                 </div>
             </form>
         </div>

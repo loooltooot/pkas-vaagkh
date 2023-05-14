@@ -181,11 +181,11 @@ body {
     display: none;
     z-index: 10;
     position: fixed;
-    top: 50px;
-    left: 570px;
+    top: 1vw;
+    left: 29.69vw;
     background: var(--primary-color);
     width: 33.85vw;
-    height: 39.71vw;
+    height: fit-content;
     padding: 3.13vw;
 
     form {

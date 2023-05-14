@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 09 2023 г., 19:37
+-- Время создания: Май 14 2023 г., 21:29
 -- Версия сервера: 10.4.26-MariaDB
 -- Версия PHP: 8.1.9
 
@@ -64,7 +64,8 @@ CREATE TABLE `aplly` (
 --
 
 CREATE TABLE `feedback` (
-  `full_name` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
+  `full_name` varchar(256) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
   `content` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `file` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -111,6 +112,13 @@ CREATE TABLE `psychologist` (
   `content` text COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Дамп данных таблицы `psychologist`
+--
+
+INSERT INTO `psychologist` (`id`, `surname`, `name`, `patronim`, `email`, `title`, `content`) VALUES
+(1, 'Колобков', 'Васятка', 'Иванович', 'kol.bok@vasya.ru', 'Я пожелтел....(((', 'Старику давно хотелось чего-нибудь вкусного, и старуха испекла колобок.\r\nНо колобок не стал лежать на окне, а убежал.\r\nОн встретил зайца и легко ушёл от него.\r\nОн встретил волка и также легко обманул серого.\r\nОн встретил медведя и обманул его.\r\nИ только хитрая лиса сумела обмануть колобок и съесть его.');
+
 -- --------------------------------------------------------
 
 --
@@ -151,7 +159,7 @@ ALTER TABLE `aplly`
 -- Индексы таблицы `feedback`
 --
 ALTER TABLE `feedback`
-  ADD PRIMARY KEY (`full_name`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `news`
@@ -186,25 +194,25 @@ ALTER TABLE `access_levels`
 -- AUTO_INCREMENT для таблицы `aplly`
 --
 ALTER TABLE `aplly`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT для таблицы `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `full_name` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT для таблицы `news`
 --
 ALTER TABLE `news`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT для таблицы `psychologist`
 --
 ALTER TABLE `psychologist`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT для таблицы `users`
