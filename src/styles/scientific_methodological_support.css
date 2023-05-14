@@ -38,4 +38,17 @@ body main .main-content-area .main-content .main-text p {
   text-align: justify;
 }
 
+@media screen and (max-width: 500px) {
+  body header .heading h2 {
+    height: 30.21vw;
+  }
+  body main .main-content-area .definition {
+    height: 80.21vw;
+  }
+  body main .main-content-area .main-content .infografika img {
+    width: 97.02vw;
+    height: 97.02vw;
+  }
+}
+
 /*# sourceMappingURL=scientific_methodological_support.css.map */
