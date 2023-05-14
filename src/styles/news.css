@@ -12,6 +12,7 @@ html body p {
   border-bottom: 1px solid #ffffff;
   flex-grow: 1;
   padding: 1.6vw 0;
+  max-width: 39.06vw;
 }
 .main-news .whole-news-wrapper:nth-child(odd) {
   border-right: 0.05vw solid #ffffff;
@@ -93,6 +94,7 @@ html body p {
     border-right: 0px;
     border: 0.2vw solid white;
     margin-bottom: 2vw;
+    max-width: 100%;
   }
   body .main-news .whole-news-wrapper:nth-child(odd) {
     padding-right: 0px;

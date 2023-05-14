@@ -50,7 +50,7 @@ $date = mb_strtolower($fmt->format($is_edit ? strtotime($time) : time()), 'UTF-8
                 <div class="card" id="content-input-wrapper">
                     <textarea required id="content-input" name="content" wrap="soft"><?= $is_edit ? $content : '' ?></textarea>
                     <div id="file-upload-wrapper">
-                        <input multiple type="file" name="files" id="files" accept="image/png, image/jpeg">
+                        <input multiple type="file" name="files[]" id="files" accept="image/png, image/jpeg">
                     </div>
                     <input id="submit" type="submit" value="Подтвердить">
                 </div>
