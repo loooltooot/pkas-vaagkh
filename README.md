@@ -1,4 +1,3 @@
-![зря ты доверил мне...](https://github.com/loooltooot/pkas-vaagkh/blob/main/static/2.png)
 # pkas-vaagkh
 College practice team work
 
